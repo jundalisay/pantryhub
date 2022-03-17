@@ -88,39 +88,6 @@ platform:
     #  content : "A waste to wealth system that uses points and point-banks instead of currency, to de-commercialize an economy and bank the unbanked"
     #  link: "pantry"
 
-    - name : Pantry Hub
-      image : /icons/pantry.png
-      content : "Implements economy-as-a-service by acting as an economic hub in each community that allows transactions in money or points"
-      link: home
-
-    - name : Pantry World
-      image : /icons/world.png
-      content : A world trade system that allows imports/exports with local currency or points
-      link: world
-
-    - name : Points Banking
-      image : /icons/banking.png
-      content : "Points Banking converts productivity to points and manifests as Basic Universal Revenue, served by real pantries"
-      link: banking
-
-    - name : Pantrylitics
-      image : /icons/pantrylitics.png
-      content : "Analytics for Pantry Hub and World data for real-time policymaking, inspired by the Bloomberg terminal"
-      link: pantrylitics
-
-skill:
-  title : "Features"
-  sitem:
-    # - name : "Pantry"
-    #   image : "https://sorasystem.sirv.com/icons/pantry.png"
-    #   content : "A waste to wealth system that uses points and point-banks instead of currency, to de-commercialize an economy and bank the unbanked"      
-    # content : "ISAIAH Predict gives insights on potential future events based on historical data"
-
-    - name : "Beacon"
-      image : /icons/pb.png
-      link: "/beacon"
-      content : "A local news system that funds local journalists and writers so they don't have to sell their integrity. Target: 2022"
-
     - name : "Govern"
       image : /icons/pg.png
       link: "/govern"      
@@ -131,10 +98,54 @@ skill:
       link: "/health"      
       content : "A health diagnosis system that allows access to medical services and treatments for people without money. Target: Tentative"
 
+    - name : Hub
+      image : /icons/pantry.png
+      content : "Implements economy-as-a-service by acting as an economic hub in each community that allows transactions in money or points"
+      link: home
+
     - name : "Learn"
       image : "/icons/pl.png"
       link: "/learn"      
-      content : "A pantry-based learning and apprenticeship system that can be used even during pandemics or crises. Target: 2023"
+      content : "A pantry-based learning and apprenticeship system that can be used even during pandemics or crises. Target: Tentative"
+
+    - name : "Loyalty"
+      image : "/icons/pl.png"
+      link: "/learn"      
+      content : "A rewards platform to encourage repeat purchases. Target: 2023"
+
+    - name : World
+      image : /icons/world.png
+      content : A world trade system that allows imports/exports with local currency or points
+      link: world
+
+    - name : Pantrylitics
+      image : /icons/pantrylitics.png
+      content : "Analytics for Pantry Hub and World data for real-time policymaking, inspired by the Bloomberg terminal"
+      link: pantrylitics
+
+
+skill:
+  title : "Features"
+  sitem:
+    # - name : "Pantry"
+    #   image : "https://sorasystem.sirv.com/icons/pantry.png"
+    #   content : "A waste to wealth system that uses points and point-banks instead of currency, to de-commercialize an economy and bank the unbanked"      
+    # content : "ISAIAH Predict gives insights on potential future events based on historical data"
+
+    - name : Circle
+      image : /icons/pantry.png
+      content : "A points-based waste to wealth system that implements the circular economy"
+      link: circle
+
+    - name : Points Banking
+      image : /icons/banking.png
+      content : "Points Banking converts productivity to points and manifests as Basic Universal Revenue, served by real pantries"
+      link: banking
+
+    - name : "Beacon"
+      image : /icons/pb.png
+      link: "beacon"
+      content : "A local news system that funds local journalists and writers so they don't have to sell their integrity. Target: 2022"
 
     - name : "Match"
       image : "/icons/match.png"

@@ -8,6 +8,7 @@
   }
 </style>
 
+
 <section class="section feature my-5">
   <div class="container has-text-centered my-5">
     <div class="card p-3" style="opacity: 0.9">
@@ -15,17 +16,17 @@
       <h3 class="subtitle is-5">{{ .subtitle | markdownify }}</h3> 
     </div>
     <div class="columns is-multiline mt-6">    
-      <div class="column is-8-desktop is-12-mobile is-flex-wrap-wrap is-justify-content-center">
-        {{ range .feature_item }}
-          <div class="card has-text-centered p-4 my-2 ">
+      {{ range .feature_item }}
+        <div class="column is-3-desktop is-12-mobile">      
+          <div class="card card-equal-height has-text-centered p-4 my-2 ">
             <!-- <a href="{{ .link }}"> -->
               <i class="zoom-xs mb-3">{{.icon | markdownify }}</i>
             
             <h4 class="subtitle is-5 mt-4">{{ .name | title }}</h4>
             <p>{{ .content | markdownify }}</p>
-          </div>        
-        {{ end }}
-      </div>
+          </div>
+        </div>
+      {{ end }}
       <div class="column is-8-desktop is-12-mobile">
         <img src="{{ .image }}" class="is-rounded my-5">                
       </div>
