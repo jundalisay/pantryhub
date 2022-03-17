@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+	{{ partial "head.html" . }}
+</head>
+
+<body>
+	{{- partial "header.html" . -}}
+    
+    <section class="banner">
+      <div class="container mx-auto text-center">
+        <h2 class="mb-4">{{ i18n "error404" }}</h2> 
+        <br>
+        <a href="https://superphysics.one">https://pantrypoints.com</a>
+      </div>
+    </section>
+
+	{{- partial "footer.html" . -}}
+</body>
+
+</html>

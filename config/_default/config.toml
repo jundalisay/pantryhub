@@ -1,0 +1,17 @@
+######################## default configuration ####################
+baseURL = "http://pantrypoints.com/"
+title = "Pantry Points System - Earn Without Money!"
+theme = "pptheme"
+
+# post pagination
+paginate = "12"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+googleAnalytics = "G-C3LQ2SVGHJ"
+# googleAnalytics = "G-J95CKP6BPM" # OLD : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true

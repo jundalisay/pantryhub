@@ -1,0 +1,18 @@
+---
+title: "Oil of Hope @ Accelerate Asia"
+image: "/photos/dish.jpg"
+date: 2019-10-16
+description: "Oil of Hope is a new brand that includes coconut and cinnamon oils which are packaged by disabled people"
+linkb: "news/hack4rice-irri-laguna"
+linkbtext: "hack4rice"
+linkf: "news/pasig-climathon-2019/"
+linkftext: "Pasig Climathon"
+---
+
+Jose pitched the Oil of Hope (OOH) at QBO for the Accelerating Asia event.
+
+Oil of Hope is a new brand that includes coconut and cinnamon oils which are packaged by disabled people. 
+
+![](/photos/dish.jpg)
+
+[Accelerating Asia](http://www.acceleratingasia.com) is a startup accelerator based in Singapore. 

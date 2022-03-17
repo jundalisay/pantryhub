@@ -1,0 +1,20 @@
+---
+title: "Moneyless Banking@Impacthub 2050"
+image: /covers/impact.png
+date: 2021-10-09
+description: "We made it to the Top 10 of Impacthub 5G Agriculture Challenge"
+linkb: "news/nasa-space-apps-challenge/"
+linkbtext: "NASA Space-apps-challenge/"
+linkf: "news/dish-hackathon"
+linkftext: "DISH hackathon"
+---
+
+We made it to the Top 10 of the Impacthub Agriculture Challenge but didn't make it to the Top 3.
+
+![](/covers/impact.png)
+
+We prototyped our [Moneyless Banking System](/banking) that uses points. The event helped us polish Resource Banking into Points Banking and go into the details on how to implement it, in preparation for the future currency crisis happening in this decade.
+
+![Points-Banking](/og/moneyless.jpg)
+
+{{< youtube OV1JHTiDdkQ >}}

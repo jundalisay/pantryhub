@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default `en-US` }}">
+
+<head>
+  {{ partial "head.html" . }}
+	
+<!-- 	<script data-ad-client="ca-pub-2557957536703477" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2557957536703477"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- 	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=494558894085286&autoLogAppEvents=1" nonce="SD0SKQAp"></script> -->
+
+<!-- 	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=494558894085286&autoLogAppEvents=1" nonce="8HW5iE2M"></script> -->
+	
+	{{ if hugo.IsProduction }}
+	{{ partialCached "header.html" . }}
+	{{ else }}
+	{{ partial "header.html" . }}
+	{{ end }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	{{ if hugo.IsProduction }}
+	{{ partialCached "footer.html" . }}
+	{{ else }}
+	{{ partial "footer.html" . }}
+	{{ end }}
+</body>
+
+</html>

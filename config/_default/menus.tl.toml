@@ -1,0 +1,69 @@
+[[main]]
+identifier = "home"
+name = "Hub"
+url = "home"
+weight = 1
+
+[[main]]
+identifier = "pantry"
+name = "Pantry"
+url = "pantry"
+weight = 2
+
+# [[main]]
+# # parent = "platform"
+# identifier = "pool"
+# name = "World"
+# url = "world"
+# weight = 3
+
+# [[main]]
+# identifier = "indicators"
+# name = "Pantrylitics"
+# url = "pantrylitics"
+# weight = 4
+
+
+# [[main]]
+# identifier = "news"
+# name = "Balita"
+# url = "news"
+# weight = 5
+
+
+
+
+
+
+[[footer_left]]
+name = "About Us"
+
+
+[[footer_middle]]
+name = "One"
+url = "home"
+
+[[footer_middle]]
+name = "Pantry"
+url = "pantry"
+
+# [[footer_middle]]
+# name = "World"
+# url = "world"
+
+# [[footer_middle]]
+# name = "Pantrylitics"
+# url = "pantrylitics"
+
+
+# [[footer_right]]
+# name = "Privacy Policy"
+# url = "about/privacy"
+
+# [[footer_right]]
+# name = "Terms & Conditions"
+# url = "about/terms"
+
+# [[footer_right]]
+# name = "FAQ"
+# url = "faq"

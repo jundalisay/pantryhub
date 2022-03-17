@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section container content">
+  <div class="columns is-mobile">
+    <div class="column is-12-mobile is-9-desktop">
+      <div class="card p-5">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="column is-12-mobile is-3-desktop">
+      <img src="{{ .Params.img1 | absURL }}" class="img-fluid rounded py-2">
+      <img src="{{ .Params.img2 | absURL }}" class="img-fluid rounded py-2">
+     <!--  <img src="{{ .Params.img3 | absURL }}" class="img-fluid py-2"> -->
+      <img src="{{ .Params.img4 | absURL }}" class="img-fluid rounded py-2">            
+    </div>    
+  </div>
+</section>
+
+
+<!-- call to action -->
+{{ with .Params.call_to_action }}
+  {{ partial "cta.html" . }}
+{{ end }}
+
+
+{{ end }}

@@ -1,0 +1,29 @@
+[[main]]
+identifier = "about"
+name = "About"
+url = "about"
+weight = 1
+
+
+
+
+[[footer_left]]
+name = "About Us"
+url = "about"
+
+# [[footer_middle]]
+# name = "Hub"
+# url = "home"
+
+# [[footer_middle]]
+# name = "Pantry"
+# url = "pantry"
+
+# [[footer_middle]]
+# name = "World"
+# url = "world"
+
+# [[footer_middle]]
+# name = "Pantrylitics"
+# url = "pantrylitics"
+

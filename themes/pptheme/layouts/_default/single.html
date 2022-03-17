@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<!-- checking blog -->
+{{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
+          <h2 class="mb-4">{{ .Title }}</h2>        
+          <div class="content">{{.Content}}</div>        
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- regular page -->
+{{ else }}
+
+  <div class="card p-4 mx-5">
+    {{ partial "page-header.html" . }}
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">        
+            <div class="content">{{ .Content }}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+{{ end }}
+
+
+<div class="columns is-multiline is-mobile mx-5 mt-5">    
+  <div class="column is-6-desktop is-12-mobile">
+    <a href="{{ .Params.linkb | relURL }}" title="Contact" class="button is-dark is-fullwidth is-rounded my-2">Back to {{ .Params.linkbtext }}</a>
+  </div>
+  <div class="column is-6-desktop is-12-mobile">
+    <a href="{{ .Params.linkf | relURL }}" title="Contact" class="button is-dark is-fullwidth is-rounded my-2">Next {{ .Params.linkftext }}</a>
+  </div>  
+</div>
+
+
+<section class="section">
+  <div class="container has-text-centered my-5">
+    <h2 class="title is-3">Register in the Waitlist</h2>
+  </div>
+
+  <div class="columns is-multiline is-mobile my-5">    
+    <div class="column is-6-desktop is-12-mobile">
+      <a href="https://hub.pantrypoints.com/registration/new" title="Register" class="button is-rounded is-success is-fullwidth">Sure!</a>
+    </div>
+    <div class="column is-6-desktop is-12-mobile">
+      <a href="https://superphysics.one/articles/pantrynomics/" title="Articles" class="button is-rounded is-info is-fullwidth">I need to read more</a>
+    </div>   
+  </div>
+</section>
+
+
+{{ end }}

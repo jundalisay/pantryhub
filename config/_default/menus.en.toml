@@ -1,0 +1,207 @@
+[[main]]
+identifier = "platforms"
+name = "Platforms"
+weight = 1
+
+[[main]]
+parent = "platforms"
+name = "Govern"
+url = "govern"
+weight = 10
+
+[[main]]
+parent = "platforms"
+name = "Health"
+url = "health"
+weight = 11
+
+[[main]]
+parent = "platforms"
+name = "Hub"
+url = "home"
+weight = 12
+
+[[main]]
+parent = "platforms"
+name = "Learn"
+url = "learn"
+weight = 13
+
+[[main]]
+parent = "platforms"
+name = "Loyalty"
+url = "loyalty"
+weight = 14
+
+[[main]]
+parent = "platforms"
+name = "Pantrylitics"
+url = "pantrylitics"
+weight = 15
+
+[[main]]
+parent = "platforms"
+name = "World"
+url = "world"
+weight = 16
+
+
+
+[[main]]
+identifier = "features"
+name = "Features"
+weight = 2
+
+[[main]]
+parent = "features"
+name = "Banking"
+url = "banking"
+weight = 30
+
+[[main]]
+parent = "features"
+name = "Beacon"
+url = "beacon"
+weight = 31
+
+[[main]]
+parent = "features"
+name = "Circle"
+url = "circle"
+weight = 32
+
+[[main]]
+parent = "features"
+name = "Invest"
+url = "invest"
+weight = 33
+
+[[main]]
+parent = "features"
+name = "Match"
+url = "match"
+weight = 34
+
+[[main]]
+parent = "features"
+name = "Pointtax"
+url = "pointtax"
+weight = 35
+
+[[main]]
+parent = "features"
+name = "Shop"
+url = "shop"
+weight = 36
+
+
+# [[main]]
+# identifier = "articles"
+# name = "articles"
+# weight = 3
+
+[[main]]
+# parent = "articles"
+name = "News"
+url = "news"
+weight = 50
+
+# [[main]]
+# parent = "articles"
+# name = "Tech Articles"
+# url = "articles/tech"
+# weight = 21
+
+# [[main]]
+# parent = "articles"
+# name = "Startup Articles"
+# url = "articles/startup"
+# weight = 22
+
+
+
+
+
+[[footer_left]]
+name = "About Us"
+url = "about"
+
+[[footer_left]]
+name = "News"
+url = "news"
+
+[[footer_left]]
+name = "Privacy Policy"
+url = "about/privacy"
+
+[[footer_left]]
+name = "Terms & Conditions"
+url = "about/terms"
+
+# [[footer_left]]
+# name = "FAQ"
+# url = "faq"
+
+
+
+
+[[footer_middle]]
+name = "Govern"
+url = "govern"
+
+[[footer_middle]]
+name = "Health"
+url = "health"
+
+[[footer_middle]]
+name = "Hub"
+url = "home"
+
+[[footer_middle]]
+name = "Learn"
+url = "learn"
+
+[[footer_middle]]
+name = "Loyalty"
+url = "loyalty"
+
+[[footer_middle]]
+name = "Pantrylitics"
+url = "pantrylitics"
+
+[[footer_middle]]
+name = "World"
+url = "world"
+
+
+
+
+
+[[footer_right]]
+name = "Banking"
+url = "banking"
+
+[[footer_right]]
+name = "Beacon"
+url = "beacon"
+
+[[footer_right]]
+name = "Circle"
+url = "circle"
+
+[[footer_right]]
+name = "Invest"
+url = "invest"
+
+[[footer_right]]
+name = "Match"
+url = "match"
+
+[[footer_right]]
+name = "Pointtax"
+url = "pointtax"
+
+[[footer_right]]
+name = "Shop"
+url = "shop"
+

@@ -1,0 +1,24 @@
+enable  : true
+title   : Team
+members  :
+  - image       : avatars/juan.jpg
+    name        : Juan
+    designation : Research, Tech
+    # medium      : https://www.medium.com/soranomics
+    linkedIn    : https://www.linkedin.com/company/13354273
+    # instagram   : https://www.instagram.com/
+
+  - image       : avatars/lam.jpg
+    name        : Lam
+    designation : Logistics
+    linkedIn    : https://www.linkedin.com/company/13354273
+
+  - image       : avatars/linh.jpg
+    name        : Linh
+    designation : Research
+    linkedIn    : https://www.linkedin.com
+    
+  - image       : avatars/hung.jpg
+    name        : Tony
+    designation : Business
+    linkedIn    : https://www.linkedin.com

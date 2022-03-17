@@ -1,0 +1,3 @@
+[submodule "themes/pptheme"]
+	path = themes/pptheme
+	url = git@github.com:jundalisay/pptheme.git

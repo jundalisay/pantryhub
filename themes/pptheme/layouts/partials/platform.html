@@ -1,0 +1,21 @@
+<section class="section my-5">
+  <div class="container has-text-centered my-5">
+    <h2 class="title is-3">{{ .title | markdownify }}</h2>
+  </div>
+  <div class="columns is-multiline is-flex-wrap-wrap is-justify-content-center">    
+    {{ range .item }}
+      <div class="column is-2 my-5">
+        <div class="card has-text-centered card-equal-height p-4">
+          <!-- <a href="{{ .link }}"> -->
+          <img src="{{ .image }}" class="card-image"></i>
+          <h4 class="subtitle is-5 mt-4">{{ .name | title }}</h4>
+          <div class="card-footer">
+            <div class="card-footer-item">            
+              {{ .content | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,148 @@
+{{ define "main" }}
+
+<!-- {{ partial "page-header.html" . }} -->
+
+<!-- checking blog -->
+
+{{ if or (eq .Section "articles") (eq .Section "news") }}
+
+  <section class="section">
+    <div class="has-text-centered pb-4">
+      <h1 class="title is-1">{{ .Params.title }}</h1>
+      <h2 class="subtitle is-3">{{ .Params.subtitle }}</h2>  
+    </div>
+
+
+    <div class="columns is-mobile is-multiline">
+      {{ range first 1 (where .Data.Pages "Type" "featured") }}
+        <div class="column is-6">
+          <img src="{{ .Params.image | relURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
+        </div>
+        <div class="column is-6">
+          <h2><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h2>
+          <p class="card-text">{{ .Summary }}</p>
+          <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="btn btn-primary">{{ i18n "readmore" }}</a>
+        </div>
+      {{ end }}
+
+      {{ $paginator := .Paginate .Data.Pages }}
+      
+      {{ range $paginator.Pages }}
+        <div class="column is-6">
+          <div class="card card-equal-height">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" style="display: flex !important;">                
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">         
+                <h3 class="title is-4 mt-4">
+                  <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </h3>
+                {{ with .Params.date }}
+                  <small>{{ .Format "January 2, 2006" }}</small>
+                {{ end }}
+                <p class="card-content">{{ .Summary }}</p>
+                <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="button is-primary" style="position: absolute; bottom: 15px !important; margin: none !important;">{{ i18n "readmore" }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+    
+  </section>
+
+
+
+
+
+
+
+
+<!-- app page -->
+{{ else }}
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6 has-text-centered">
+          <div class="has-text-centered">
+            <figure class="image is-inline-block">
+              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="pb-4">
+            </figure>
+          </div>
+          <h1 class="title is-2">{{ .Params.title }}</h1>
+          <h2 class="subtitle is-5 mt-2">{{ .Params.subtitle }}</h2>
+          <div class="my-4">
+            <a href="{{ .Params.applink }}" class="button is-rounded is-primary is-fullwidth">
+              {{ .Params.apptext }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon pl-2" fill="white"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>
+            </a>
+          </div>        
+        </div>
+
+        <div class="column is-6 has-text-centered">
+          <div class="has-text-centered label py-5">
+            <figure class="is-inline-block embed-responsive embed-responsive-16by9">      
+              <iframe width="100%" height="auto" class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .Params.youtube }}" allowfullscreen></iframe>
+            </figure>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </section>
+
+
+  <!-- feature -->
+  {{ with .Params.feature }}
+    {{ partial "feature.html" . }}
+  {{ end }}
+  <!-- /feature -->
+
+
+  {{ with .Params.platform }}
+    {{ partial "platform.html" . }}
+  {{ end }}
+
+
+  {{ with .Params.how }}
+    {{ partial "how.html" . }}
+  {{ end }}
+
+  {{ with .Params.segment }}
+    {{ partial "segment.html" . }}
+  {{ end }}
+
+
+  {{ with .Params.req }}
+    {{ partial "req.html" . }}
+  {{ end }}
+
+
+  {{ with .Params.feedback }}
+    {{ partial "feedback.html" . }}
+  {{ end }}
+
+
+
+  {{ with .Params.call_to_action }}
+    {{ partial "cta.html" . }}
+  {{ end }}
+
+
+  <!-- <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="content">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+{{ end }}
+
+{{ end }}

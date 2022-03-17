@@ -1,0 +1,51 @@
+[en]
+languageName = "En"
+title = "Pantry Points System - Earn Without Money!"
+contentDir = "content/en" # content/english
+weight = 1
+
+footer_menu_left = "Pantry Points"
+footer_menu_middle = "Platforms"
+footer_menu_right = "Features"
+footer_content = "Let's end crises once and for all"
+# copyright
+copyright = "By [Pantry Work](https://pantryhub.work/)"
+
+
+[tl]
+languageName = "Tl"
+title = "Pantry Points - Kumita nang Walang Pera!"
+contentDir = "content/tl"
+weight = 2
+
+footer_menu_left = "Pantry Points"
+footer_menu_middle = "Mga Platform"
+footer_menu_right = "Suporta"
+footer_content = "Wag magpatalo sa krisis"
+# copyright
+copyright = "Gawa ng [Pantry Work](https://pantryhub.work/)"
+
+[vi]
+languageName = "Vi"
+title = "Pantry Points System - Earn Without Money!"
+contentDir = "content/vi"
+weight = 3
+
+footer_menu_left = "Pantry Points"
+footer_menu_middle = "Platforms"
+footer_menu_right = "Support"
+footer_content = "Let's end crises once and for all"
+copyright = " [Pantry Work](https://pantryhub.work/)"
+
+
+[ar]
+languageName = "Ar"
+title = "Pantry Points"
+contentDir = "content/ar"
+weight = 3
+
+footer_menu_left = "Pantry Hub"
+footer_menu_middle = "Platforms"
+footer_menu_right = "Support"
+footer_content = "Let's end crises once and for all"
+copyright = " [Pantry Work](https://pantryhub.work/)"

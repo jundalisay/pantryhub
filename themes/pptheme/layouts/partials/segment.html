@@ -1,0 +1,96 @@
+<!-- service -->
+
+{{ range $i,$p := .articles }}
+  {{if modBool $i 2}}
+
+    <div class="columns is-mobile has-background-dark">
+      <div class="column is-6-desktop is-12-mobile">
+        <section class="section has-text-light">     
+          <h2 class="title is-4 has-text-light">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+          {{ with .button }}
+            <a href="{{ .link | relURL }}" title="{{ .label }}" class="button is-primary mt-4">{{ .label }} 
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d='M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z'/></svg>
+            </a>
+          {{ end }}
+
+          {{ with .Params.quote }}
+            <div class="columns is-mobile">
+              <div class="column is-10">
+                <small>{{ .quote | markdownify }}</small>
+              </div>
+              <div class="column is-2">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
+
+                <img src="{{ .quota | relURL }}" alt="" class="img-fluid">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>         
+              </div>
+            </div>        
+          {{ end }}
+
+        </section>
+
+      </div>
+
+      <div class="column is-6-desktop is-12-mobile">
+        <section class="section">
+          <div {{if gt (len .images) 1}} class="slider" {{end}}>
+            {{ range .images }}
+              <img src="{{ . | relURL }}" alt="" class="">
+            {{ end }}
+          </div>
+        </section>
+      </div>
+    </div>
+
+  {{ else }}
+
+    <div class="columns is-mobile has-background-light">
+
+      <div class="column is-6-desktop is-12-mobile">
+        <section class="section">
+          <div {{if gt (len .images) 1}} class="slider" {{end}}>
+            {{ range .images }}
+              <img src="{{ . | relURL }}" alt="" class="">
+            {{ end }}
+          </div>
+        </section>
+      </div>
+
+      <div class="column is-6-desktop is-12-mobile">
+        <section class="section ">        
+          <h2 class="title is-4">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+          {{ with .button }}
+            <a href="{{ .link | relURL }}" title="{{ .label }}" class="button is-primary mt-4">{{ .label }} 
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d='M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z'/></svg>
+            </a>
+          {{ end }}
+
+          {{ with .Params.quote }}
+            <div class="columns is-mobile">
+              <div class="column is-10">
+                <small>{{ .quote | markdownify }}</small>
+              </div>
+              <div class="column is-2">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"/></svg>
+
+                <img src="{{ .quota | relURL }}" alt="" class="img-fluid">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class='icon is-large' fill='white'><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"/></svg>         
+              </div>
+            </div>        
+          {{ end }}
+
+        </section>
+
+      </div>
+
+
+    </div>
+  
+  {{ end }}  
+{{ end }}

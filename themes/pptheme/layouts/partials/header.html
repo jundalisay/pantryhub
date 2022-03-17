@@ -1,0 +1,108 @@
+{{ "<!-- navigation -->" | safeHTML }}
+<nav class="navbar" style="background-color: aliceblue;" aria-label="main navigation">
+  <div class="navbar-brand">
+    <div class="navbar-item">
+      <a class="navbar-brand" href="{{ site.BaseURL | absLangURL }}">
+        {{ with site.Params.logo}}
+          <img width="{{site.Params.logo_width}}" class="" src="{{ . | absURL }}" alt="{{ site.Title }}">
+        {{ else }}
+          {{site.Title}}
+        {{end}}
+        <!-- relLangURL -->
+      </a>
+    </div>
+    <div class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbar">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>                
+    </div>      
+  </div>
+  <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      <!-- Language List -->
+      {{ if .IsTranslated }}
+        <div class="control">
+          <div class="select is-small is-rounded">     
+            <select class="mt-2" onchange="location = this.value;">
+              {{ $siteLanguages := site.Languages}}
+              {{ $pageLang := .Page.Lang}}
+              {{ range .Page.AllTranslations }}
+                {{ $translation := .}}
+              {{ range $siteLanguages }}
+                {{ if eq $translation.Lang .Lang }}
+                  {{ $selected := false }}
+                    {{ if eq $pageLang .Lang}}
+                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                    {{ else }}
+                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </select>
+          </div>
+        </div>
+      {{ end }}
+
+      {{ with site.Params.navigation_button1 }}
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-primary is-rounded m-3">{{ .label }}</a>
+      {{ end }}
+
+      {{ with site.Params.navigation_button2 }}
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-info is-rounded m-3">{{ .label }}</a>
+      {{ end }}
+
+    </div>
+
+
+
+    <div class="navbar-end">
+      {{ range site.Menus.main }}
+        <div class="navbar-item has-dropdown is-hoverable" x-data="{ state: false }">
+          <a href="#" class="navbar-link green" @click=" state = !state ">
+            {{ .Name }}
+          </a>
+          {{ if .HasChildren }}
+            <div class="navbar-dropdown" x-show="state">
+              {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          {{ else }}
+            <div class="navbar-dropdown" x-show="state">           
+              <a class="navbar-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+            </div>
+          {{ end }}
+        </div>      
+      {{ end }}
+    </div>
+  </div>
+</nav>
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+  });            
+</script>

@@ -1,0 +1,65 @@
+<footer class="footer section">
+  <div class="container">
+    <div class="columns is-mobile is-multiline">
+      <div class="column is-3-desktop is-6-mobile">
+        {{ if site.Menus.footer_left }}
+          <h4 class="subtitle is-5">{{ site.Params.footer_menu_left }}</h4>
+          <ul>
+            {{ range site.Menus.footer_left }}
+              <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}" class="has-text-black">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+      <div class="column is-3-desktop is-6-mobile">
+        {{ if site.Menus.footer_middle }}
+          <div class="h3 mb-4">{{ site.Params.footer_menu_middle }}</div>
+          <ul>
+            {{ range site.Menus.footer_middle }}
+              <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}" class="has-text-black">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+      <div class="column is-3-desktop is-6-mobile">
+        {{ if site.Menus.footer_right }}
+        <div class="h3 mb-4">{{ site.Params.footer_menu_right }}</div>
+        <ul>
+          {{ range site.Menus.footer_right }}
+            <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}" class="has-text-black">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="column is-3-desktop is-6-mobile has-text-centered">
+        <a class="" href="{{ site.BaseURL | absLangURL}}">
+          {{ with site.Params.logo}}
+
+            <figure class="image is-inline-block">
+              <img width="{{site.Params.logo_width}}" style="height: 50px !important; -webkit-filter: grayscale(100%); filter: grayscale(100%)" src="{{ . | relURL }}" alt="{{ site.Title }}">
+            </figure>
+
+          {{ else }}
+            {{site.Title}}
+          {{end}}
+        </a>
+        
+<!--         <div class="fb-like" data-href="https://taonet.one" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div> -->
+        
+        <p class="mb-4 has-text-dark">{{ site.Params.footer_content | markdownify }}</p>
+        <a class="has-text-dark" href="mailto:hello@pantrypoints.com">hello@pantrypoints.com</a>        
+        {{ with site.Params.social }}
+          <div class="tags is-centered my-2">
+            {{ range . }}
+              <a href="{{ .link | safeURL }}" class="mr-4" title="{{ .title }}">{{ .icon | markdownify }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+
+      </div>
+    </div>
+    <div class="has-text-centered">
+      <small>{{ site.Params.Copyright | markdownify }}</small>
+    </div>
+  </div>
+</footer>

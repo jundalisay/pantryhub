@@ -1,0 +1,14 @@
+<section class="section my-5">
+  <div class="container has-text-centered my-5">
+    <h2 class="title is-3">{{ .title | markdownify }}</h2>
+  </div>
+
+  <div class="columns is-multiline is-mobile my-5">    
+    <div class="column is-6-desktop is-12-mobile">
+      <a href="{{ .link1 | relURL }}" title="{{ .label }}" class="button is-rounded is-success is-fullwidth">{{ .link1text }}</a>
+    </div>
+    <div class="column is-6-desktop is-12-mobile">
+      <a href="{{ .link2 | relURL }}" title="{{ .label }}" class="button is-rounded is-info is-fullwidth">{{ .link2text }}</a>
+    </div>   
+  </div>
+</section>

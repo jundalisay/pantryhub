@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+  <div class="container mb-5">
+    <div class="columns is-mobile">
+      <div class="column is-7-desktop is-12-mobile">
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
+
+          <div class="field">
+            <label>Your Name</label>
+            <div class="control">
+              <input type="text" id="name" name="name" placeholder="{{ i18n `yourname` }}" class="input">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Your Email</label>
+            <div class="control">
+              <input type="text" id="email" name="email" placeholder="{{ i18n `youremail` }}" class="input">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Your City</label>
+            <div class="control">
+              <input type="text" id="city" name="city" placeholder="{{ i18n `yourcity` }}" class="input">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Your Message</label>
+            <div class="control">
+              <textarea class="textarea" type="text" id="message" name="message" placeholder="{{ i18n `yourmessage` }}"></textarea>
+            </div>
+          </div>
+                              
+<!--           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}"> -->
+<!--        <form action="https://isaiah4.gigalixirapp.com/api/subscribers" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="subscriber[name]" placeholder="{{ i18n `yourname` }}">
+          <input type="email" class="form-control mb-3" id="email" name="subscriber[email]" placeholder="{{ i18n `youremail` }}">
+          <input type="city" class="form-control mb-3" id="city" name="subscriber[city]" placeholder="{{ i18n `yourcity` }}">          
+           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}"> 
+          <textarea name="subscriber[comment]" id="comment" class="form-control mb-3" placeholder="{{ i18n `yourmessage` }}"></textarea> -->
+          <button type="submit" value="send" class="button is-primary">{{ i18n `sendnow` }}</button>
+        </form>
+      </div>
+      
+      <div class="column is-5-desktop is-12-mobile content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+{{ end }}

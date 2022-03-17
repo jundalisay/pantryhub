@@ -1,0 +1,28 @@
+---
+title: "Pantry Govern @ Impacthub Smart Cities"
+image: /covers/impact.png
+date: 2021-12-11
+description: "We joined Impacthub Smart Cities to pitch Pantry Govern"
+linkb: "news/nasa-space-apps-challenge/"
+linkbtext: "NASA Space-apps-challenge/"
+linkf: "news/dish-hackathon"
+linkftext: "DISH hackathon"
+---
+
+<!-- # image: "https://sorasystem.sirv.com/logos/Impact2050.png" -->
+
+We joined Impacthub Smart Cities to pitch the last part of the Pantry system -- Pantry Govern. 
+
+![](/covers/impact.png)
+
+From the event, we were able finalize the features:
+
+1. Permit and Issue tracking
+2. Local transportation routes map
+3. Local News (as Pantry Beacon)
+
+{{< youtube J6F2_PF2wbo >}}
+
+This completes all the platforms and features of the Pantry system. Because we didn't get support back in 2016, development progressed very slowly. It came too late for the crisis that we predicted in 2019 which turned out to be Covid-19.  
+
+But will it be ready for the coming currency crisis? We'll tell you when it happens! 

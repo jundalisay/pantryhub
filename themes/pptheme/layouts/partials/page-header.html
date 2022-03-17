@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="container has-text-centered">
+    <h1 class="title is-1">{{ .Title | markdownify }}</h1>
+    {{ with .Params.subtitle }}
+      <h2>{{ . | markdownify }}</h2>
+    {{ end }}
+  
+    {{ with .Params.date }}
+      <small>{{ .Format "January 2, 2006" }}</small>
+    {{ end }}
+    
+<!--     <div class="py-2">
+      <div class="fb-like" data-href="{{ .Permalink }}" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div> 
+    </div> --> 
+  </div>
+</section>
