@@ -29,7 +29,7 @@ This is what Pantry Points aims to realize.
 
 ### An Economic System That Has Its Own Science
 
-It has its own science called Pantrynomics which itself is a subset of Social Superphysics, from David Hume, Adam Smith's best friend. [Superphysics](https://superphysics.one) is divided into three:
+It has its own science called Pantrynomics (Economic Superphysics) which itself is a subset of Social Superphysics, from David Hume, Adam Smith's best friend. [Superphysics](https://superphysics.one) is divided into three:
 <!-- Greenspan was really citing Samuelson and neoliberal writers who preferred selfish-interest instead of social interest.
 
 After concluding that Greenspan and Samuelson were the bad guys, Smith logically became the good guy to us. Smith cited David Hume heavily in his works. Hume cited Plato who wrote about Socrates who spoke about reincarnation and chakras. Socrates thus became the essential link between Western and Eastern philosophy, which we merged into Superphysics as a dialectical system to solve all problems, just as you use the scientific method to solve all science problems and math formulas to solve math problems. -->
@@ -48,8 +48,8 @@ After concluding that Greenspan and Samuelson were the bad guys, Smith logically
 <!-- - [Social Superphysics](/social-superphysics) -->
 - [Social Superphysics](https://superphysics.one/social)
   - This is for solving social problems, even economics and politics, and is made up of:
-    - Pantrynomics: for economic problems. This turns the economist into a supereconomist or a Pantrynomist
-    - Supersociology: for social and political problems
+    - Pantrynomics (Economic Superphysics): for economic problems. This turns the economist into a supereconomist or a Pantrynomist
+    - Supersociology (Political Superphysics): for social and political problems and the *policies* for them
 
 <br>
 
