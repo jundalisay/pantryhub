@@ -6,15 +6,9 @@ no *.domain.com
 HUGO_VERSION 0.88.1
 
 
-width="100%" height="auto"
-
 7 dimensions, 5 layers, 4 thermodynamics, 3 states, 2 forces, 1 observer (yourself)
 
-
 https://cdn.jsdelivr.net/gh/alpinejs/alpine@v3.5.0/dist/alpine.min.js
-
-js toggle div
-
 
 {{ $styles := slice }}
 
