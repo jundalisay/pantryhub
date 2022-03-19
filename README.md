@@ -1,10 +1,8 @@
 ## PUBLIC README
 
-2022 masama matsing
 CLoudflare pages
 no *.domain.com
 HUGO_VERSION 0.88.1
-
 
 7 dimensions, 5 layers, 4 thermodynamics, 3 states, 2 forces, 1 observer (yourself)
 
