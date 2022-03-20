@@ -7,8 +7,9 @@ banner:
   title : "Get Points for What You Do"
   # Let's Build a Better World After the Great Reset
   # image : "banner-art.svg"
-  youtube: "Y8gkzT8SF7Q"
-  content : "Pantry is a decentralized economic system that uses bilateral points through meetups in order to mitigate inflation and unemployment"
+  # youtube: "Y8gkzT8SF7Q"
+  youtube: "xfqvWMia6uM"
+  content : "Pantry Points is a decentralized economic system that uses bilateral points through meetups in order to mitigate inflation and unemployment"
   mainbuttons:
     - label : "Register in the Waitlist"
       color: "success"
@@ -105,12 +106,12 @@ platform:
 
     - name : "Learn"
       image : "/icons/pl.png"
-      link: "/learn"      
+      link: "learn"      
       content : "A pantry-based learning and apprenticeship system that can be used even during pandemics or crises. Target: Tentative"
 
-    - name : "Loyalty"
+    - name : "Rewards"
       image : "/icons/pl.png"
-      link: "/learn"      
+      link: "rewards"      
       content : "A rewards platform to encourage repeat purchases. Target: 2023"
 
     - name : World
@@ -157,12 +158,10 @@ skill:
       link: "/pointtax"
       content : "A points-based taxation system that prevents tax evasion and increases tax revenue by spreading it to more people. Target: Tentative"
       
-    - name : Shop
+    - name : Shop Front
       image : /icons/ps.png
       link: "/shop"      
       content : "The pantrynomics version of Shopify. Target: Tentative"
-
-
 
 
 
