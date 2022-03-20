@@ -1,13 +1,15 @@
 ---
 title: "Rewards for Loyalty"
-subtitle: "Pantry Loyalty rewards frequent purchases"
+subtitle: "Pantry Rewards gives incentives to frequent purchases"
 # image: "/logos/invest.png"
-description: "Pantry Loyalty rewards frequent purchases to keep the economy going"
+description: "Pantry Rewards gives incentives to frequent purchases to keep the economy going"
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
 # youtube: "KLnDh_zs94I"
 # applink: https://hub.pantrypoints.com/registration/new
 # apptext: "View the demo"
+aliases: loyalty
+
 
 
 feature:

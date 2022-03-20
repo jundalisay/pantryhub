@@ -1,7 +1,7 @@
 ---
 title: "A waste to wealth platform that implements the circular economy"
 subtitle: "Designed for crises caused by global warming"
-image: "/logos/pantry.png"
+image: "/logos/pantrycircle.png"
 description: "Pantry is a waste to wealth system that implements the circular economy"
 youtube: "Yh5uY0gJWus"
 # youtube: "m8HZsTLgH_o"
@@ -57,16 +57,26 @@ how:
       id: 3
       
 
-segment:
-  articles:
-    - title : "Implements Basic Universal Revenue (BUR)"
-      images:
-      - "https://sorasystem.sirv.com/photos/pantry.jpg"
-      - "https://sorasystem.sirv.com/photos/quipu.jpg"
-      content : "The Basic Universal Revenue of Pantrynomics is the moneyless version of Universal Basic Income of Economics. Its ancient version is the quipu string used by the Inca"
-      # button:
-      #   label : "Can it solve poverty & inequality?"
-      #   link : "https://superphysics.one/pantrynomics/basic-universal-revenue"
+carousel:
+  title : "Implements Basic Universal Revenue (BUR)"
+  content : "The Basic Universal Revenue of Pantrynomics is the moneyless version of Universal Basic Income of Economics. Its ancient version is the quipu string used by the Inca"
+  images:
+  - "/photos/tomatoes.jpg"
+  - "/photos/quipu.jpg"  
+
+
+# segment:
+#   articles:
+#     - title : "Implements Basic Universal Revenue (BUR)"
+#       images:
+#       - "/photos/tomatoes.jpg"
+#       - "/photos/quipu.jpg"
+#       # - "https://sorasystem.sirv.com/photos/pantry.jpg"
+#       # - "https://sorasystem.sirv.com/photos/quipu.jpg"
+#       content : "The Basic Universal Revenue of Pantrynomics is the moneyless version of Universal Basic Income of Economics. Its ancient version is the quipu string used by the Inca"
+#       # button:
+#       #   label : "Can it solve poverty & inequality?"
+#       #   link : "https://superphysics.one/pantrynomics/basic-universal-revenue"
 
 
 req:
@@ -80,9 +90,8 @@ feedback:
   title: Competitions and Feedback
   item:
     - user : AWS Hackdays 2019
-      image: https://sorasystem.sirv.com/logos/hackday.jpg
+      image: /icons/hackdays.jpg
       content: Top 5
-
 
     - user : Impacthub Agriculture Challenge
       image: https://impacthub.ph/wp-content/uploads/2020/12/Impact-Hub-Manila-IHM-logo-Red.png

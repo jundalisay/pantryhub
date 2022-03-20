@@ -155,9 +155,9 @@
     <div class="container has-text-centered">
       <h2 class="title is-2">{{ .title | markdownify }}</h2>
   
-      <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center">
+      <div class="columns is-multiline is-mobile">
         {{ range .sitem }}
-          <div class="column is-4-desktop is-6-mobile my-5">
+          <div class="column is-4-desktop is-12-mobile my-5">
             <div class="card has-text-centered card-equal-height p-4">
               <a href="{{ .link }}">
                 <figure class="image is-128x128 is-inline-block">
