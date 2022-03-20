@@ -5,7 +5,8 @@ image: "/logos/invest.png"
 description: "Pantry Invest "
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
-youtube: "KLnDh_zs94I"
+# youtube: "KLnDh_zs94I"
+youtube: "mGu4Z0HpiRI"
 applink: https://hub.pantrypoints.com/registration/new
 apptext: "View the demo"
 
