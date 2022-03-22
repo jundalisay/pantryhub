@@ -9,6 +9,7 @@ We need:
 
 - inputs from academics, policymakers, institutions
 - translations from people who can speak a language other than English
+- donors who want to donate in cash or kind to seed the points system
 - interested people who want to try our prototypes and spread the word
 
 Leave us a message or a comment or send an email:
