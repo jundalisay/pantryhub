@@ -108,9 +108,15 @@
   {{ end }}
 
 
+
   {{ with .Params.how }}
     {{ partial "how.html" . }}
   {{ end }}
+
+  {{ with .Params.carousel }}
+    {{ partial "carousel.html" . }}
+  {{ end }}
+  
 
   {{ with .Params.segment }}
     {{ partial "segment.html" . }}
@@ -133,9 +139,6 @@
   {{ end }}
 
 
-  {{ with .Params.carousel }}
-    {{ partial "carousel.html" . }}
-  {{ end }}
 
 
   <!-- <section class="section">

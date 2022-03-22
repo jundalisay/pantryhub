@@ -116,7 +116,7 @@ call_to_action:
   title : "Do you want to use Pantry?"
   link1text: "Yes, I'm in!"
   link1 : "https://hub.pantrypoints.com/registration/new"
-  link2text: "I'm not convinced yet"
-  link2 : "https://superphysics.one/articles/pantrynomics/"
+  link2text: "I need to know more"
+  link2 : "https://superphysics.one/solutions/material/how-to-solve-global-warming/"
 
 ---

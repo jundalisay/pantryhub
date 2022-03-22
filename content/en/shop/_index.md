@@ -1,7 +1,7 @@
 ---
 title: "Your own online storefront"
 subtitle: ""
-image: "/logos/shop.png"
+image: "/logos/front.png"
 description: "Pantry Shop is your own online storefront -- the Pantry version of Shopify"
 youtube: "RP1bzp_LQhM"
 # CR6T1M9dKwQ
@@ -10,7 +10,8 @@ youtube: "RP1bzp_LQhM"
 # youtube: "DjGsLaUvYcc"
 apptext: "View the demo"
 applink: "https://lp.pantrypoints.com/bec"
-
+aliases: 
+  front
 
 feature:
   bannerfeat: "/photos/shop.jpg"
@@ -41,7 +42,7 @@ how:
       content: "Contact your Pantry operator to sign up for a shop account"
     - image: "/screens/css.jpg"
       id: 2
-      content: "Give your css design and web assets for your storefront"
+      content: "Give your css design and web assets for your storefront. If you have neither, send a drawing"
     - image: "/screens/shop/bec.jpg"
       id: 3
       content: "Invite your customers to your new online shop"  
@@ -64,11 +65,11 @@ how:
 
 ##################### Call to action #####################
 
-call_to_action:
-  title : Register in the Waitlist
-  link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
-  link2text: "I'm not convinced yet"
-  link2 : "https://superphysics.one/articles/pantrynomics/"
+# call_to_action:
+#   title : Register in the Waitlist
+#   link1text: "Sure!"
+#   link1 : "https://hub.pantrypoints.com/registration/new"
+#   link2text: "I'm not convinced yet"
+#   link2 : "https://superphysics.one/articles/pantrynomics/"
 
 ---

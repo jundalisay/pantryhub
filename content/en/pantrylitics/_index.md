@@ -72,6 +72,6 @@ call_to_action:
   link1text: "Sure!"
   link1 : "https://hub.pantrypoints.com/registration/new"
   link2text: "I'm not convinced yet"
-  link2 : "https://superphysics.one/articles/pantrynomics/"
+  link2 : "https://superphysics.one/pantrynomics/isaiah"
   
 ---
