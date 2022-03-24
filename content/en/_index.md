@@ -8,7 +8,8 @@ banner:
   # Let's Build a Better World After the Great Reset
   # image : "banner-art.svg"
   # youtube: "Y8gkzT8SF7Q"
-  youtube: "xfqvWMia6uM"
+  # youtube: "xfqvWMia6uM"
+  youtube: "rVP73TV2X0s"
   content : "Pantry Points is a decentralized economic system that uses bilateral points through meetups in order to mitigate inflation and unemployment"
   mainbuttons:
     - label : "Register in the Waitlist"
