@@ -13,6 +13,6 @@ Jose pitched the Oil of Hope (OOH) at QBO for the Accelerating Asia event.
 
 Oil of Hope is a new brand that includes coconut and cinnamon oils which are packaged by disabled people. 
 
-![](/photos/dish.jpg)
+![DISH Logo](/photos/dish.jpg)
 
 [Accelerating Asia](http://www.acceleratingasia.com) is a startup accelerator based in Singapore. 

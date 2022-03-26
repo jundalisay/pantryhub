@@ -12,7 +12,7 @@ linkftext: "uli-challenge"
 We made it to the Top 5 of AWS Hackdays and will pitch SORA Relief. 
 
 <!-- (https://agorize.co) -->
-![](https://sorasystem.sirv.com/logos/hackday.jpg)
+![AWS Hackday Logo](https://sorasystem.sirv.com/logos/hackday.jpg)
 
 AWS Hackday is a nationwide Hackathon sponsored by AWS to encourage startups and young people to use the different features available in AWS. This year's theme is hack for good.  
 

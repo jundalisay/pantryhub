@@ -12,7 +12,7 @@ linkftext: "Zalo-hackathon"
 
 We made it to the semifinals of Slush Global Impact Accelerator (GIA). [Slush](http://www.slush.org) is an annual startup event from Finland that aims to attract startups from all over the world. It hosts thousands of attendees, startups, and investors.
 
-![](https://sorasystem.sirv.com/logos/slush.png)
+![SLUSH Logo](https://sorasystem.sirv.com/logos/slush.png)
 
 Our pitch was SORAnomics as a scalable economic system that can work for both rich and poor countries. 
  

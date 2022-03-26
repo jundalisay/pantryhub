@@ -8,7 +8,7 @@ banner:
   content : "Pantry là một mạng xã hội để tận dụng các sản phẩm, hàng hóa, công việc, sự kiện, bất động sản và năng lượng"
   youtube: "Y8gkzT8SF7Q"
   mainbuttons:
-    - label : "Register in the Waitlist"
+    - label : "Đăng xuất"
       color: "primary"
       link : "https://hub.pantrypoints.com/registration/new"
     - label : "Check out the science"

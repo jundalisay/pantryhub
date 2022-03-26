@@ -11,6 +11,6 @@ linkftext: "Slush GIA"
 
 Team SORA is with Team EZGamio at the BSSC startup event in Saigon. We onboarded Lam who is also our newest cofounder.
 
-![](https://sorasystem.sirv.com/logos/bssc.png)
+![BSSC Logo](https://sorasystem.sirv.com/logos/bssc.png)
 
 [BSSC](https://www.bssc.vn) is an entrepreneurship support organization established in 2010. It holds its annual startup event to allow investors and startups to meet. 

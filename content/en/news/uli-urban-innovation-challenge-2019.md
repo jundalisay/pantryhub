@@ -12,7 +12,7 @@ linkftext: "Maker-faire-2019"
 
 Juan pitched SORA Gov as Poblacion portal in the ULI Urban Innovation Challenge and onboarded Jose this month.
 
-![](https://sorasystem.sirv.com/logos/uli.png)
+![ULI Logo](https://sorasystem.sirv.com/logos/uli.png)
 
 The [Urban Land Institute](https://uli.org) challenge aims to use technologies to add conveniencies to urban living, such as smart city innovations. Its target for this year is the town of Poblacion in Makati, which is one of the most urbanized cities in the Philippines. 
 
@@ -24,5 +24,5 @@ SORA Gov aims to be a platform that integrates key government services into one 
 
 {{< youtube J6F2_PF2wbo >}}
 
-![](/og/gov.jpg)
+![Gov Logo](/og/gov.jpg)
 

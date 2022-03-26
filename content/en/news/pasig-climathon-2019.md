@@ -14,7 +14,7 @@ We developed our prototype called SORA Reuse for the <a href='https://climathon.
 
 The [Climathon](https://climathon.climate-kic.org) is an annual event for climate change tech activists that involves topics on plastic waste disposal, efficient energy use, and environmental protection, among others. We participated in the event sponsored by the Pasig city government under Mayor Vico Sotto.
 
-![](/photos/plastics.jpg)
+![Plastics](/photos/plastics.jpg)
 
 > Update July 2021: SORA Reuse will be a sub-feature of Pantry which will implement the circular economy.
 

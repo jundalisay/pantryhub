@@ -12,7 +12,7 @@ linkftext: "DISH hackathon"
 
 We're at the Decode Hackathon to pitch SORA Power. 
 
-![](https://sorasystem.sirv.com/logos/decode.jpg)
+![Decode Hackathon Logo](https://sorasystem.sirv.com/logos/decode.jpg)
 
 The Decode Hackathon is a hackathon hosted by the [Aboitiz Group of Companies](https://aboitiz.com) based in Taguig, Philippines. There are many challenges, ranging from feed optimization, smart grid, smart city, and transactions optimization.
 

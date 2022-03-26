@@ -12,9 +12,7 @@ linkftext: "startup-weekend"
 
 Juan is in Malaysia for the ASEAN's Next Great Idea contest by the [Malaysian Global Innovation and Creativity Centre](https://www.mymagic.my) or MAGIC.
 
-![](/covers/magic.jpg)
-
-<!-- ![](https://sorasystem.sirv.com/photos/magic.jpg) -->
+![MAGIC Logo](/covers/magic.jpg)
 
 MAGIC is the startup incubation and acceleration project of the Malaysian government headquartered in Cyberjaya, under the Minisitry of Science, Technology, and Innovation or MOSTI. Compared to the incubation programs of other ASEAN countries like Vietnamm Silicon Valley, QBO, and Block 71, MAGIC seems very well funded and supported by its government.
 

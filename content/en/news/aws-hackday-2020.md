@@ -11,7 +11,7 @@ linkftext: "pantry-app"
 
 We made it to the Top 5 of AWS Hackdays for 2020 with SORA Health. Unfortunately, we didn't make it to the Top 2.
 
-![](https://sorasystem.sirv.com/logos/hackday.jpg)
+![AWS Hackday Logo](https://sorasystem.sirv.com/logos/hackday.jpg)
 
 Incidentally, we moved our servers out of AWS and into [Google Cloud Platform](https://cloud.google.com) in order to cut costs because the Covid pandemic. 
 

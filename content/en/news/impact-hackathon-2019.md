@@ -12,7 +12,7 @@ linkftext: "Hackatax"
 
 We pitched the complete version of Agreeculture in the Impact Hackathon and made it to the Top 10 of the Manila round.
 
-![](/covers/impact.png)
+![Impact Hackathon Logo](/covers/impact.png)
 <!-- ![](https://sorasystem.sirv.com/photos/impact.jpg) -->
 
 The Impact Hackathon is an initiative by Impacthub Manila and aims to make it to the Guiness Book of World records as the biggest hackathon in the world. Unfortunately, they didn't break the record. 

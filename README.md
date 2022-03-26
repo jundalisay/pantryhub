@@ -6,6 +6,46 @@ HUGO_VERSION 0.88.1
 
 7 dimensions, 5 layers, 4 thermodynamics, 3 states, 2 forces, 1 observer (yourself)
 
+enable  : true
+galleryImages :
+  - image : images/portfolio/item-1.jpg
+  - image : images/portfolio/item-2.jpg
+  - image : images/portfolio/item-3.jpg
+  - image : images/portfolio/item-4.jpg
+  - image : images/portfolio/item-5.jpg
+  - image : images/portfolio/item-6.jpg
+
+clients.yml
+enable        : true
+title         : "Who trust our judgment"
+client_logos  : 
+  ["images/clients/client-logo-one.png", "images/clients/client-logo-two.png", "images/clients/client-logo-three.png", "images/clients/client-logo-four.png", "images/clients/client-logo-five.png", "images/clients/client-logo-six.png", "images/clients/client-logo-seven.png", "images/clients/client-logo-eight.png", "images/clients/client-logo-nine.png", "images/clients/client-logo-ten.png"]
+
+
+{{ with .Site.Data.clients }}
+  {{ if .enable }}
+  <section class="site-client">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>{{ .title }}</h2>
+          </div>
+          <div class="site-client-wrapper">
+            {{ range .client_logos }}
+            <div class="site-client-item">
+              <img src="{{ . | absURL }}" alt="client-logo">
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+
 https://cdn.jsdelivr.net/gh/alpinejs/alpine@v3.5.0/dist/alpine.min.js
 
 {{ $styles := slice }}

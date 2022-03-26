@@ -68,7 +68,7 @@ feature:
 
 ######################### How it works #####################
 how:
-  title : "How it Works"
+  title : "How it Works"  
   steps:
     - content: "Post your item using a points price instead of a money price"
       image: "/screens/pantryshow.png"

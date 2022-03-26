@@ -12,7 +12,7 @@ linkftext: "BSSC 2017"
 
 We made it to the semifinals of Startup Weekend Cambodia pitching DCS (Debt Clearing System)! 
 
-![](https://sorasystem.sirv.com/logos/startupweekend.png)
+![Startup Weekend Logo](https://sorasystem.sirv.com/logos/startupweekend.png)
 
 [Startup Weekend](http://communities.techstars.com) is a 54-hour startup hackathon and pitching competition held in various countries, organized by Techstars. The Cambodia event focuses on fintech solutions and is sponsored by ABA Bank of Cambodia. 
 

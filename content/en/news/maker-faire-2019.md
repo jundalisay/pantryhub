@@ -12,8 +12,6 @@ linkftext: "World Vision Challenge"
 
 Juan will be manning the SORA booth at the [Manila Maker Faire](https://manila.makerfaire.com/) in BGC from June 22-23, 2019 to showcase Match. 
 
-<!-- ![](https://sorasystem.sirv.com/logos/match.png) -->
-
 The Makerfaire is an annual event that brings together makers from all over the country. Makers are people who invent and tinker with gadgets, robots, and devices such as the Arduino board. 
 
 Among the innovations present in the event were 3-D printing, small robots, and soldering tutorials. 
@@ -22,6 +20,6 @@ Match is our proposed personality matching system that serves as an alternative 
 
 > Update Dec 12, 2021: SORA Match is now ISAIAH Match
 
-![](/og/match.jpg)
+![ISAIAH Logo](/og/match.jpg)
 
 {{< youtube YjpyR0yVNLY >}}

@@ -11,7 +11,7 @@ linkftext: "blockathon-2017"
 
 We're at the Zalo hackathon with Henry and Vin. [Zalo](https://chat.zalo.me) is a Vietnamese messaging app that is headquartered in HCM city. 
 
-![](https://sorasystem.sirv.com/logos/zalo600.jpg)
+![Zalo Logo](https://sorasystem.sirv.com/logos/zalo600.jpg)
 
 
 We tried out integrating a recommendation system for SORA using backend technologies. We're not experts in recommendation systems and so we didn't make any place.

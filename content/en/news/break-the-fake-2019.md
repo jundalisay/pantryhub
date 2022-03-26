@@ -12,7 +12,7 @@ linkbtext: "World Vision"
 
 We're at Break the Fake to pitch SORA Beacon but didn't make any place. 
 
-![](https://sorasystem.sirv.com/logos/break.jpg)
+![Break the fake Logo](https://sorasystem.sirv.com/logos/break.jpg)
 
 [Break the Fake](http://breakthefakemovement.com) is a movement that holds hackathons sponsored by Facebook and the US State Department to solve fake news in democratic countries. It is organized by YSEALI alumni. 
 

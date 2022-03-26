@@ -11,7 +11,7 @@ linkftext: Impact Hackathon 2021
 
 This is in line with our mega-overhaul that began in April. The main catalyst was finding out [Einstein's error in his Theory of General Relativity](https://superphysics.one/solutions/material/how-to-fix-general-relativity/). This then made it easy to match the laws of thermodynamics to our [laws of value](https://superphysics.one/pantrynomics/four-laws-of-value/) which then became the solid foundation of Pantrynomics as implemented through community pantries during the pandemic.
 
-![](/logos/pantry.png)
+![Pantry Logo](/logos/pantry.png)
 
 In a nutshell, the focus of SORA was the social network aspect of the economy -- the "Social" in "Social Resource Allocation."
 

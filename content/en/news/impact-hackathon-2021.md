@@ -11,7 +11,7 @@ linkftext: "DISH hackathon"
 
 We made it to the Top 10 of the Impacthub Agriculture Challenge but didn't make it to the Top 3.
 
-![](/covers/impact.png)
+![Impacthub](/covers/impact.png)
 
 We prototyped our [Moneyless Banking System](/banking) that uses points. The event helped us polish Resource Banking into Points Banking and go into the details on how to implement it, in preparation for the future currency crisis happening in this decade.
 

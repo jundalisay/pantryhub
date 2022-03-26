@@ -12,7 +12,7 @@ linkbtext: "Aboitiz Hackathon"
 
 Juan was at the DISH hackathon to pitch the SORA Trade prototype and won a consolation prize. 
 
-![](https://sorasystem.sirv.com/photos/dish.jpg)
+![DISH logo](https://sorasystem.sirv.com/photos/dish.jpg)
 
 DISH hackathon is a blockchain hackathon that seeks to fund use cases for ethereum, NEM, holochain, and other technologies. Among the implementations proposed during the event were user identification, blockchain voting, crypto micro-transactions, and tamper-proof transactions.
 

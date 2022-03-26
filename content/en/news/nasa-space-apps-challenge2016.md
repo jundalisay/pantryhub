@@ -12,7 +12,7 @@ linkftext: "vietnam-silicon-valley"
 
 We got accepted into the NASA Space apps challenge in Saigon! 
 
-![](https://sorasystem.sirv.com/logos/nasa.png)
+![NASA Space Apps Logo](https://sorasystem.sirv.com/logos/nasa.png)
 
 Our entry is NARA or Non-Arbitrary Resource Allocation:
 

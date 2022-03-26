@@ -13,7 +13,7 @@ linkftext: "DISH hackathon"
 
 We joined Impacthub Smart Cities to pitch the last part of the Pantry system -- Pantry Govern. 
 
-![](/covers/impact.png)
+![ImpactHub Logo](/covers/impact.png)
 
 From the event, we were able finalize the features:
 

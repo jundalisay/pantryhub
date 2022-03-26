@@ -11,7 +11,7 @@ linkftext: "break-the-fake"
 
 We won 2nd place in the World Vision Social Innovation Challenge!
 
-![](https://sorasystem.sirv.com/logos/wvlogo.png)
+![World Vision Logo](https://sorasystem.sirv.com/logos/wvlogo.png)
 
 [World Vision](https://www.worldvision.org.ph) is a Christian charity group headquartered in North America with operations in many third world countries, especially the Philippines. They focus on children and the youth.
 
@@ -25,7 +25,7 @@ It will implement Adam Smith's proposed educational reform in The Wealth of Nati
 
 Moreover, the internet allows people to share theoretical knowledge for free and so young people can learn those theories at their own pace and capacity. ~~SORA Learn~~ [Pantry Learn](/learn) organizes such theoretical learning into modules in order to reduce costs and choose the best teachers. 
 
-![](https://sorasystem.sirv.com/og/learn.jpg)
+![Pantry Learn Logo](https://sorasystem.sirv.com/og/learn.jpg)
 
 Practical training and quality control, however, cannot be done online for all jobs. This is where our practical apprenticeship system comes in. It acts as an organization system for trainers and trainees so that the former can choose the best, while the latter can switch between apprenticeships until he finds the best one for him.  
 

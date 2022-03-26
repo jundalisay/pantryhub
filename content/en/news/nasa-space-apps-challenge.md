@@ -12,7 +12,7 @@ linkftext: "Decode Hackathon"
 
 We won the Most Inspiring award at the NASA Space Apps challenge pitching [DIRA (Disaster Resource Allocation)](https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/dont-forget-can-opener/teams/dira/members) 
 
-![](https://sorasystem.sirv.com/logos/nasa.png)
+![NASA Spaceapps Logo](https://sorasystem.sirv.com/logos/nasa.png)
 
 The [NASA Space Apps challenge](http://spaceapps.co) is a worldwide hackathon sponsored by NASA which aims to find uses of their data and other technologies for climate change monitoring, deforestation impact, flooding trends, disaster relief, air pollution, etc. The winner for this year in the Philippines was the Isda app which will help fishermen monitor their fish catch through mobile phones. The Isda app team came from ABS-CBN. 
 

@@ -12,7 +12,7 @@ linkftext: "AWS hackdays"
 
 We've submitted our fairtax entry to the Hackatax but was not shortlisted. 
 
-![](https://sorasystem.sirv.com/logos/hackatax800.jpg)
+![Hackatax logo](https://sorasystem.sirv.com/logos/hackatax800.jpg)
 
 The [Hackatax](http://www.hackatax.ph) is a program by the taxation department of the Philippine government known as the [Bureau of Internal Revenue](https://www.bir.gov.ph) or BIR. It aims to find innovations to help make tax collection easier and more efficient. 
 

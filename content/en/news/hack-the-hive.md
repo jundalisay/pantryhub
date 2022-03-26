@@ -20,5 +20,5 @@ This helps explain why there are very few tech startups coming from the Philippi
 
 > Update Dec 12, 2021: SORA Pledge is now Pantry Invest which uses interest-bearing points. This implements Book 2 of the Wealth of Nations
 
-![](/og/invest.jpg)
+![Pantry Invest](/og/invest.jpg)
 

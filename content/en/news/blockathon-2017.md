@@ -12,7 +12,7 @@ linkftext: "NASA Space-apps-challenge"
 
 We won 2nd place in the first-ever blockathon in Vietnam! 
 
-![](https://sorasystem.sirv.com/logos/blockathon.jpg)
+![Blockathon Logo](https://sorasystem.sirv.com/logos/blockathon.jpg)
 
 The Blockathon is a blockchain hackathon held by [Infinity Blockchain Labs](http://blockchainlabs.asia), a research and development tech company in HCM city in Vietnam. It aims to find use cases for ethereum and other blockchain technologies. This year's event was the first one in Vietnam and was held simultaneously in Hanoi and HCM city. 
 
