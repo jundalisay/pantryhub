@@ -1,8 +1,9 @@
 ---
-title: "Better health for all"
-subtitle: "A health risk platform based on five medical paradigms integrated in Pantry"
+title: "Health Democracy Allowing Five Medical Paradigms"
+# Better health for all
+subtitle: "Pantry Health is health-risk platform based on Western Medicine, Ayurveda, Chinese Medicine, Naturopathy, and Homeopathy"
 image: "/logos/health.png"
-description: "Pantry Health is a health app that allows five health paradigms"
+description: "Pantry Health is a health app that allows the five health paradigms of Western Medicine, Ayurveda, Chinese Medicine, Naturopathy, and Homeopathy"
 # youtube: "3FHG_VoDlhs"
 youtube: "ldAX9XGTvX0"
 # youtube: "oBFBDtAmUvk"

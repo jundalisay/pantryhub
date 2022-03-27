@@ -1,5 +1,5 @@
 ---
-title: Pantry Hub is a web app for making urban life easier
+title: Pantry Hub is an app for making urban life easier
 subtitle: "Implements Economy-as-a-Service or EaaS or a ready economic system out-of-the-box"
 image: "/logos/pantry.png"
 description: Hub is the central part of Pantry Points Network, a new economic system based on points

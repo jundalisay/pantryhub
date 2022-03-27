@@ -5,6 +5,9 @@ theme = "pptheme"
 
 canonifyurls = true
 
+
+enableRobotsTXT = true
+
 # post pagination
 paginate = "12"
 # post excerpt
