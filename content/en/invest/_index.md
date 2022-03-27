@@ -2,7 +2,7 @@
 title: "The Interest-bearing Pantry"
 subtitle: "Pantry Invest implements the Points Banking system to spur industry and productivity among the unbanked"
 image: "/logos/invest.png"
-description: "Pantry Invest "
+description: "Pantry Invest implements the Points Banking system to spur industry and productivity among the unbanked"
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
 # youtube: "KLnDh_zs94I"

@@ -1,6 +1,7 @@
 ---
 title: "Learn freely"
-subtitle: "Pantry Apprentice and Learn are social education systems derived from Adam Smith's educational reform proposal in the Wealth of Nations"
+subtitle: "Pantry Apprentice and Learn use points to pay for education"
+# are social education systems derived from Adam Smith's educational reform proposal in the Wealth of Nations
 image: "/logos/learn.png"
 description: "Pantry Apprentice and Learn are social education systems derived from Adam Smith's educational reform proposal in the Wealth of Nations"
 # youtube: "3FHG_VoDlhs"

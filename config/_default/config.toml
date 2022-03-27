@@ -3,6 +3,8 @@ baseURL = "http://pantrypoints.com/"
 title = "Pantry Points System - Earn Without Money!"
 theme = "pptheme"
 
+canonifyurls = true
+
 # post pagination
 paginate = "12"
 # post excerpt

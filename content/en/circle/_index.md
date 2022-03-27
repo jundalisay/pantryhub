@@ -1,6 +1,6 @@
 ---
-title: "A waste to wealth platform that implements the circular economy"
-subtitle: "Designed for crises caused by global warming"
+title: "Circle: The Circular Economy Implemented"
+subtitle: "A waste to wealth platform that implements the circular economy"
 image: "/logos/pantrycircle.png"
 description: "Pantry is a waste to wealth system that implements the circular economy"
 youtube: "Yh5uY0gJWus"

@@ -34,9 +34,9 @@
         <h1 class="title is-1">
           {{ .title | markdownify }}
         </h1>
-        <h2 class="subtitle is-4">
+        <p class="subtitle is-4">
           {{ .content | markdownify }}
-        </h2>
+        </p>
 
         <div class="has-text-centered label">
           <figure class="is-inline-block embed-responsive embed-responsive-16by9">      
@@ -62,16 +62,16 @@
 {{ with .Params.servers }}
   <section class="section my-5">
     <div class="container has-text-centered my-5">
-      <h2 class="title is-3">{{ .title | markdownify }}</div>
-      <h3 class="subtitle is-5">{{ .subtitle | markdownify }}</div>        
+      <h2 class="title is-3">{{ .title | markdownify }}</h2>
+      <p class="subtitle is-5">{{ .subtitle | markdownify }}</p>        
     </div>
     <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center my-5">    
       {{ range .sitem }}
         <div class="column is-3-desktop is-12-mobile">
           <div class="card p-5 has-text-centered">
             <figure class="image is-128x128 is-inline-block">
-              <img class="mb-3" src="{{ .flag }}" width="100px">
-              <br>          
+              <img class="mb-3" src="{{ .flag }}" width="100px" alt="{{ .name }}">
+              <br>
               <a href="{{ .link }}" class="button is-rounded is-small {{ .btn }}">{{ .name }}</a>
             </figure>
           </div>
@@ -96,22 +96,25 @@
 
   <section class="section crisis my-5">
     <div class="container has-text-centered my-5">
-      <div class="title is-3 has-text-white"><h2>{{ .title | markdownify }}</h2></div>
-      <div class="subtitle is-5 has-text-white"><h3>{{ .subtitle | markdownify }}</h3></div>        
+      <div class="title is-3 has-text-white">
+        <h2>{{ .title | markdownify }}</h2>
+      </div>
+      <div class="subtitle is-5 has-text-white">
+        <p>{{ .subtitle | markdownify }}</h3></p>        
     </div>
-    <div class="columns is-multiline is-flex-wrap-wrap is-justify-content-center">    
+    <div class="columns is-multiline is-mobile">    
       {{ range .feature_item }}
-        <div class="column is-2 my-5">
+        <div class="column is-4-desktop is-12-mobile my-5">
           <div class="card has-text-centered card-equal-height p-4">
             <a href="{{ .link }}">
               <i class="zoom-xs mb-3">{{.icon | markdownify }}</i>
             </a>
-            <h4 class="subtitle is-5 mt-4">{{ .name | title }}</h4>
+            <h3 class="subtitle is-5 mt-4">{{ .name | title }}</h3>
             <p>{{ .content | markdownify }}</p>
           </div>
         </div>
       {{ end }}
-      <img src="{{ .image }}" class="is-rounded my-5">      
+      <img src="{{ .image }}" class="is-rounded my-5" alt="{{ .imagetext }}">      
     </div>
   </section>
 {{ end }}
@@ -125,6 +128,13 @@
 {{ end }}
 
 
+{{ with .Params.centralimage }}
+  {{ partial "image.html" . }}
+{{ end }}
+
+
+
+
 {{ with .Params.platform }}
   <section class="section my-5">
     <div class="container has-text-centered">
@@ -136,10 +146,10 @@
             <div class="card has-text-centered card-equal-height p-4">
               <a href="{{ .link }}">
                 <figure class="image is-128x128 is-inline-block">
-                  <img class="is-rounded mb-3" src="{{ .image }}" width="100px">
+                  <img class="is-rounded mb-3" src="{{ .image }}" width="100px" alt="{{ .name }}">
                 </figure>
               </a>
-              <h4 class="subtitle is-4">{{ .name | title }}</h4>
+              <h3 class="subtitle is-4">{{ .name | title }}</h3>
               <p>{{ .content | markdownify }}</p>
             </div>
           </div>
@@ -161,10 +171,10 @@
             <div class="card has-text-centered card-equal-height p-4">
               <a href="{{ .link }}">
                 <figure class="image is-128x128 is-inline-block">
-                  <img class="is-rounded mb-3" src="{{ .image }}" width="100px">
+                  <img class="is-rounded mb-3" src="{{ .image }}" width="100px" alt="{{ .name }}">
                 </figure>
               </a>
-              <h4 class="subtitle is-4">{{ .name | title }}</h4>
+              <h3 class="subtitle is-4">{{ .name | title }}</h3>
               <p>{{ .content | markdownify }}</p>
             </div>
           </div>

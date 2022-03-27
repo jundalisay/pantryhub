@@ -2,6 +2,10 @@
 
 <title>{{.Title | default site.Title}}</title>
 
+{{ with .Params.description }}
+  <meta name="description" content="{{ . }}">
+{{ end }}
+
 
 <!-- base url -->
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") }} 
@@ -25,15 +29,13 @@
 {{ end }}
 
 
-{{ with .Params.description }}
-  <meta name="description" content="{{ . }}">
-{{ end }}
-
-
 
 <!--Favicon-->
 <link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
 <link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ site.Params.favicon | absURL }}">
+
+<link rel="canonical" href="{{ .Permalink }}">
 
 <!-- mobile responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">

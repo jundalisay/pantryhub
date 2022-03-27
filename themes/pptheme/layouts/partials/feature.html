@@ -13,7 +13,7 @@
   <div class="container has-text-centered my-5">
     <div class="card p-3" style="opacity: 0.9">
       <h2 class="title is-2">{{ .title | markdownify }}</h2>
-      <h3 class="subtitle is-5">{{ .subtitle | markdownify }}</h3> 
+      <p class="subtitle is-5">{{ .subtitle | markdownify }}</p> 
     </div>
     <div class="columns is-multiline mt-6">    
       {{ range .feature_item }}
