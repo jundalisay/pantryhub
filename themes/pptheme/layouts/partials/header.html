@@ -22,7 +22,7 @@
       <!-- Language List -->
       {{ if .IsTranslated }}
         <div class="control">
-          <div class="select is-small is-rounded">     
+          <div class="select is-small">     
             <select class="mt-2" onchange="location = this.value;">
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
@@ -45,11 +45,11 @@
       {{ end }}
 
       {{ with site.Params.navigation_button1 }}
-        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-primary is-rounded m-3">{{ .label }}</a>
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-primary m-3">{{ .label }}</a>
       {{ end }}
 
       {{ with site.Params.navigation_button2 }}
-        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-info is-rounded m-3">{{ .label }}</a>
+        <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="button is-small is-info m-3">{{ .label }}</a>
       {{ end }}
 
     </div>

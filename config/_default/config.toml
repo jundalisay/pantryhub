@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://pantrypoints.com/"
+baseURL = "https://pantrypoints.com/"
 title = "Pantry Points System - Earn Without Money!"
 theme = "pptheme"
 
