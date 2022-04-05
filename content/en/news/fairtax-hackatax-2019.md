@@ -8,6 +8,7 @@ linkb: "news/impact-hackathon-2019/"
 linkbtext: "Impact Hackathon"
 linkf: "news/aws-hackday-2020/"
 linkftext: "AWS hackdays"
+updates: "Dec 9, 2021: Fairtax became Pointtax which is under Pantry Govern"
 ---
 
 We've submitted our fairtax entry to the Hackatax but was not shortlisted. 
@@ -18,6 +19,5 @@ The [Hackatax](http://www.hackatax.ph) is a program by the taxation department o
 
 Our proposal is called Social fairtax which is a double-entry taxation system that we derived from our barter system.  
 
-> Update Dec 9, 2021: Fairtax became Pointtax which is under Pantry Govern
 
 {{<youtube ZE7LrTVmfaw>}}

@@ -8,6 +8,7 @@ linkb: "news/zalo-hackathon-2017"
 linkbtext: "Zalo Hackathon 2017"
 linkf: "news/nasa-space-apps-challenge/"
 linkftext: "NASA Space-apps-challenge"
+updates: "December 12, 2021: SORA Gov is now part of Pantry Govern. It uses no blockchain at all!"
 ---
 
 We submitted SORA Gov as our entry to the [World Govhack 2017](https://hackathon.govtechprize.ae/) 
@@ -19,5 +20,3 @@ We tried to add Ethereum to the SORA social contracts but it proved to be very u
 
 {{< youtube J6F2_PF2wbo >}}
 
----
-- Update December 12, 2021: SORA Gov is now part of Pantry Govern. It uses no blockchain at all!

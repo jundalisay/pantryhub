@@ -8,6 +8,7 @@ linkb: "news/aws-hackday-2019"
 linkbtext: "AWS Hackdays-2019"
 linkf: "news/maker-faire-2019"
 linkftext: "Maker-faire-2019"
+updates: "December 12, 2021: SORA Gov is now Pantry Govern"
 ---
 
 Juan pitched SORA Gov as Poblacion portal in the ULI Urban Innovation Challenge and onboarded Jose this month.
@@ -20,9 +21,9 @@ SORA Gov aims to be a platform that integrates key government services into one 
 
 <!-- > Update August 2021: SORA Gov is now part of [Hub](/home).  -->
 
-> Update December 12, 2021: SORA Gov is now Pantry Govern
-
 {{< youtube J6F2_PF2wbo >}}
+
+<br>
 
 ![Gov Logo](/og/gov.jpg)
 

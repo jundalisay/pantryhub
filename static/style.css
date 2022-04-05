@@ -196,7 +196,7 @@ img {
   margin-left: auto;  
   margin-right: auto;
   border-radius: 5px;  
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+/*  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);*/
   height: auto;
   max-width: 100%;
 /*  justify-content: center !important;*/
@@ -1280,6 +1280,7 @@ a.box:active {
 }
 
 .button {
+/*  border-radius: 200px;*/
   background-color: white;
   border-color: #dbdbdb;
   border-width: 1px;
@@ -2544,7 +2545,7 @@ fieldset[disabled] .button.is-danger.is-inverted.is-outlined {
 }
 
 .button.is-small:not(.is-rounded) {
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .button.is-normal {

@@ -8,6 +8,7 @@ linkb: "news/break-the-fake-2019/"
 linkbtext: "Break-the-fake-2019"
 linkf: "news/hack4rice-irri-laguna"
 linkftext: "hack4rice-irri-laguna"
+updates: "Dec 12, 2021: SORA Pledge is now Pantry Invest which uses interest-bearing points. This implements Book 2 of the Wealth of Nations"
 ---
 
 JM and Arian are in <a href='https://www.eventbrite.com/e/hack-the-hive-strengthening-connections-for-the-global-pinoy-tickets-59751606664'>Hack the Hive</a> in QBO to pitch our SORA Pledge prototype. 
@@ -18,7 +19,6 @@ Hack the Hive is organized by [Free Bee](https://www.freebeecalls.com), a teleco
 
 This helps explain why there are very few tech startups coming from the Philippines.
 
-> Update Dec 12, 2021: SORA Pledge is now Pantry Invest which uses interest-bearing points. This implements Book 2 of the Wealth of Nations
 
 ![Pantry Invest](/og/invest.jpg)
 

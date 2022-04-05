@@ -8,6 +8,7 @@ linkb: "news/blockathon-2017"
 linkbtext: "Blockathon-2017"
 linkf: "news/aboitiz-hackathon"
 linkftext: "Decode Hackathon"
+updates: "<ul><li>Nov 2020: DIRA evolved to become SORA Relief</li><li>December 12, 2021: SORA Relief is now part of Pantry Govern</li></ul>"
 ---
 
 We won the Most Inspiring award at the NASA Space Apps challenge pitching [DIRA (Disaster Resource Allocation)](https://2018.spaceappschallenge.org/challenges/volcanoes-icebergs-and-asteroids-oh-my/dont-forget-can-opener/teams/dira/members) 
@@ -16,10 +17,5 @@ We won the Most Inspiring award at the NASA Space Apps challenge pitching [DIRA 
 
 The [NASA Space Apps challenge](http://spaceapps.co) is a worldwide hackathon sponsored by NASA which aims to find uses of their data and other technologies for climate change monitoring, deforestation impact, flooding trends, disaster relief, air pollution, etc. The winner for this year in the Philippines was the Isda app which will help fishermen monitor their fish catch through mobile phones. The Isda app team came from ABS-CBN. 
 
-
 {{< youtube J6F2_PF2wbo >}}
 
----
-- Update Nov 2020: DIRA evolved to become SORA Relief
-
-- Update December 12, 2021: SORA Relief is now part of Pantry Govern

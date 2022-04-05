@@ -8,6 +8,7 @@ linkb: "news/zalo-hackathon-2017"
 linkbtext: "Zalo Hackathon 2017"
 linkf: "news/nasa-space-apps-challenge/"
 linkftext: "NASA Space-apps-challenge"
+updates: "December 12, 2021: Social is now Points Banking without any blockchain"
 ---
 
 We won 2nd place in the first-ever blockathon in Vietnam! 
@@ -20,5 +21,3 @@ Our entry was a Social version of ROSCA or revolving credit, using Ethereum.
 
 {{< youtube OV1JHTiDdkQ >}}
 
----
-- Update December 12, 2021: Social is now Points Banking without any blockchain

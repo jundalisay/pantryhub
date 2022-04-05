@@ -8,6 +8,7 @@ linkb: "news/uli-urban-innovation-challenge-2019/"
 linkbtext: "ULI challenge"
 linkf: "news/world-vision-social-innovation-challenge"
 linkftext: "World Vision Challenge"
+updates: "Dec 12, 2021: SORA Match is now ISAIAH Match"
 ---
 
 Juan will be manning the SORA booth at the [Manila Maker Faire](https://manila.makerfaire.com/) in BGC from June 22-23, 2019 to showcase Match. 
@@ -18,7 +19,6 @@ Among the innovations present in the event were 3-D printing, small robots, and 
 
 Match is our proposed personality matching system that serves as an alternative to Myers-Briggs.
 
-> Update Dec 12, 2021: SORA Match is now ISAIAH Match
 
 ![ISAIAH Logo](/og/match.jpg)
 

@@ -7,6 +7,7 @@ linkb: "news/dish-hackathon/"
 linkbtext: "Dish-hackathon/"
 linkf: "news/uli-urban-innovation-challenge-2019"
 linkftext: "uli-challenge"
+updates: "December 12, 2021: SORA Relief is now part of Pantry Govern"
 ---
 
 We made it to the Top 5 of AWS Hackdays and will pitch SORA Relief. 
@@ -15,8 +16,5 @@ We made it to the Top 5 of AWS Hackdays and will pitch SORA Relief.
 ![AWS Hackday Logo](https://sorasystem.sirv.com/logos/hackday.jpg)
 
 AWS Hackday is a nationwide Hackathon sponsored by AWS to encourage startups and young people to use the different features available in AWS. This year's theme is hack for good.  
-
-
-> Update December 12, 2021: SORA Relief is now part of Pantry Govern
 
 {{< youtube J6F2_PF2wbo >}}

@@ -103,7 +103,7 @@ req:
   title: Based on the requirements in Book 5, Chapter 2 of the Republic
   link: "https://superphysics.one/research/socrates/simple-republic/book-5/chapter-2"
   btext: "Read the requirements"
-  avatar: "/avatars/smith.png"
+  avatar: "/avatars/socrates.png"
 
 
 ##################### Call to action #####################

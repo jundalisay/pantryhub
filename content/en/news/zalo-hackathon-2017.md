@@ -7,6 +7,7 @@ linkb: "news/slush-global-impact-accelerator-saigon"
 linkbtext: "Slush GIA"
 linkf: "news/blockathon-2017"
 linkftext: "blockathon-2017"
+updates: "December 12, 2021: Our recommendation system eventually became ISAIAH Match"
 ---
 
 We're at the Zalo hackathon with Henry and Vin. [Zalo](https://chat.zalo.me) is a Vietnamese messaging app that is headquartered in HCM city. 
@@ -19,5 +20,3 @@ We tried out integrating a recommendation system for SORA using backend technolo
 
 {{< youtube YjpyR0yVNLY >}}
 
----
-- Update December 12, 2021: Our recommendation system eventually became ISAIAH Match

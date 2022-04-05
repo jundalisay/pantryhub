@@ -8,6 +8,7 @@ linkb: "news"
 linkbtext: "News"
 linkf: "news/vietnam-silicon-valley-demo-day-2016"
 linkftext: "vietnam-silicon-valley"
+updates: "December 12, 2021: NARA evolved to become SORA to focus on the social network feature, which then evolved into Pantry to focus on the Points feature"
 ---
 
 We got accepted into the NASA Space apps challenge in Saigon! 
@@ -21,5 +22,4 @@ https://2016.spaceappschallenge.org/challenges/earth/emobile-pastoralism/project
 It focuses on pastoralism for African countries like Malawi. We deployed it on Heroku. 
 
 
----
-- Update December 12, 2021: NARA evolved to become SORA to focus on the social network feature, which then evolved into Pantry to focus on the Points feature
+

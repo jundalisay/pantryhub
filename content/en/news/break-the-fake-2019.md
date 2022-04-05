@@ -8,6 +8,7 @@ linkf: "news/hack-the-hive"
 linkftext: "hack-the-hive"
 linkb: "news/world-vision-social-innovation-challenge/"
 linkbtext: "World Vision"
+updates: "December 12, 2021: SORA Beacon is now Pantry Beacon"
 ---
 
 We're at Break the Fake to pitch SORA Beacon but didn't make any place. 
@@ -18,6 +19,5 @@ We're at Break the Fake to pitch SORA Beacon but didn't make any place.
 
 In the Philippines, it was held in De La Salle University in Manila. 
 
-> Update December 12, 2021: SORA Beacon is now Pantry Beacon
 
 {{< youtube UpwdTIAcLVY >}}

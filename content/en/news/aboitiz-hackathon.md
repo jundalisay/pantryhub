@@ -8,6 +8,7 @@ linkb: "news/nasa-space-apps-challenge/"
 linkbtext: "NASA Space-apps-challenge/"
 linkf: "news/dish-hackathon"
 linkftext: "DISH hackathon"
+updates: "<ul><li>December 12, 2021: SORA Power is now part of Pantry Govern</li></ul>"
 ---
 
 We're at the Decode Hackathon to pitch SORA Power. 
@@ -22,5 +23,3 @@ SORA Power will solve this by making the convincing less invasive by integrating
 
 {{< youtube J6F2_PF2wbo >}}
 
----
-- Update December 12, 2021: SORA Power is now part of Pantry Govern.

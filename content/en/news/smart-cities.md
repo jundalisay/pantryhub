@@ -23,6 +23,8 @@ From the event, we were able finalize the features:
 
 {{< youtube J6F2_PF2wbo >}}
 
+<br>
+
 This completes all the platforms and features of the Pantry system. Because we didn't get support back in 2016, development progressed very slowly. It came too late for the crisis that we predicted in 2019 which turned out to be Covid-19.  
 
 But will it be ready for the coming currency crisis? We'll tell you when it happens! 

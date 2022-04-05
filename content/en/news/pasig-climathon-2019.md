@@ -8,6 +8,7 @@ linkb: "news/oil-of-hope/"
 linkbtext: "Oil-of-hope"
 linkf: "news/impact-hackathon-2019/"
 linkftext: "Impact Hackthon"
+updates: "<ul><li>July 2021: SORA Reuse will be a sub-feature of Pantry which will implement the circular economy.</li><li>March 2022: This is now part of Pantry Circle</li></ul>"
 ---
 
 We developed our prototype called SORA Reuse for the <a href='https://climathon.climate-kic.org/en/'>Pasig Climathon</a>. We didn't make any place, so we will put it on hold. 
@@ -16,6 +17,5 @@ The [Climathon](https://climathon.climate-kic.org) is an annual event for climat
 
 ![Plastics](/photos/plastics.jpg)
 
-> Update July 2021: SORA Reuse will be a sub-feature of Pantry which will implement the circular economy.
 
 {{< youtube Yh5uY0gJWus >}}

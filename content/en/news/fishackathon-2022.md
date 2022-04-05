@@ -8,6 +8,7 @@ linkf: "news/"
 linkftext: "Index"
 linkb: "news/impact-hackathon-2021"
 linkbtext: "Impact Hackathon"
+updates: "March 2022: We made it to the finals but didn't make the top three"
 ---
 
 We submitted our entry to the Fishackathon 2022 as Pantry Points. 
@@ -16,4 +17,4 @@ The system is inspired by the Inca empire which used granaries as qullqa and non
 
 The Fishackathon is organized by [Each Mile](https://eachmile.co/) and Padang & Co
 
-> Update March 2022: We made it to the finals but didn't make the top three
+

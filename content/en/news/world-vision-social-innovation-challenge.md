@@ -7,6 +7,7 @@ linkb: "news/maker-faire-2019"
 linkbtext: "Maker Faire"
 linkf: "news/break-the-fake-2019"
 linkftext: "break-the-fake"
+updates: "Dec 12, 2021: SORA Learn is now Pantry Learn"
 ---
 
 We won 2nd place in the World Vision Social Innovation Challenge!
@@ -29,7 +30,5 @@ Moreover, the internet allows people to share theoretical knowledge for free and
 
 Practical training and quality control, however, cannot be done online for all jobs. This is where our practical apprenticeship system comes in. It acts as an organization system for trainers and trainees so that the former can choose the best, while the latter can switch between apprenticeships until he finds the best one for him.  
 
-
-- Update Dec 12, 2021: SORA Learn is now Pantry Learn
 
 {{< youtube _6oLDaX3T00 >}}

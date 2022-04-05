@@ -27,6 +27,19 @@
             <div class="content">{{ .Content }}</div>
           </div>
         </div>
+
+
+        {{ with .Params.updates }}
+          <article class="message is-warning mt-6">
+            <div class="message-header">
+              Updates
+            </div>
+            <div class="message-body">
+            {{ . | markdownify }}
+            </div>
+          </article>
+        {{ end }}
+        
       </div>
     </section>
   </div>
@@ -36,10 +49,10 @@
 
 <div class="columns is-multiline is-mobile mx-5 mt-5">    
   <div class="column is-6-desktop is-12-mobile">
-    <a href="{{ .Params.linkb | relURL }}" title="Contact" class="button is-dark is-fullwidth is-rounded my-2">Back to {{ .Params.linkbtext }}</a>
+    <a href="{{ .Params.linkb | relURL }}" title="Contact" class="button is-dark is-fullwidth my-2">Back to {{ .Params.linkbtext }}</a>
   </div>
   <div class="column is-6-desktop is-12-mobile">
-    <a href="{{ .Params.linkf | relURL }}" title="Contact" class="button is-dark is-fullwidth is-rounded my-2">Next {{ .Params.linkftext }}</a>
+    <a href="{{ .Params.linkf | relURL }}" title="Contact" class="button is-dark is-fullwidth my-2">Next {{ .Params.linkftext }}</a>
   </div>  
 </div>
 
@@ -51,10 +64,10 @@
 
   <div class="columns is-multiline is-mobile my-5">    
     <div class="column is-6-desktop is-12-mobile">
-      <a href="https://hub.pantrypoints.com/registration/new" title="Register" class="button is-rounded is-success is-fullwidth">Sure!</a>
+      <a href="https://hub.pantrypoints.com/registration/new" title="Register" class="button is-success is-fullwidth">Sure!</a>
     </div>
     <div class="column is-6-desktop is-12-mobile">
-      <a href="https://superphysics.one/articles/pantrynomics/" title="Articles" class="button is-rounded is-info is-fullwidth">I need to read more</a>
+      <a href="https://superphysics.one/articles/pantrynomics/" title="Articles" class="button is-info is-fullwidth">I need to read more</a>
     </div>   
   </div>
 </section>
