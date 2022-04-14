@@ -11,7 +11,8 @@ linkftext: "NASA Space-apps-challenge"
 
 We have a booth in Hatch 2015 as NARA or Non-Arbitrary Resource Allocation. 
 
-<!-- ![VSV Logo](/photos/vsv.jpg) -->
+![Hatch](/graphics/hatch.jpg)
+
 
 Hatch is an incubator in Hanoi Vietnam that has its own coworking site. We learned of the event after participating in the Hack for Social Good held by the United Nations Development Program  and the British Council. 
 

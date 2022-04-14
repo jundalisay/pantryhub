@@ -68,4 +68,4 @@ Our goal is to implement Smith's alternative economic system, as Pantry Points, 
 
 We are looking for universities that would be interested in our theories, publishers interested in our books, and companies and angels that would like to invest in a resilient economic system that will preserve their businesses and capital during such a prolonged crisis. Feel free to contact us via email at pantrypoints@gmail.com or use the chatbox on the lower right. 
 
-We also accept donations in cash, kind, or labor (such as translating the posts or apps into your local language, or sharing our posts, apps, and pages). Every contribution is listed down.
+We also accept donations in cash, kind, or labor (such as translating the posts or apps into your local language, or sharing our posts, apps, and pages). Every contribution is noted.

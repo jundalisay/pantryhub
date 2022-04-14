@@ -1,8 +1,8 @@
 ---
-title: "News about Pantrynomics and the Pantry Points Network"
+title: "News about the Pantry Points System"
 subtitle: ""
 image: "images/pantry.png"
-description: ""
+description: "Here are the latest News about the Pantry Points System"
 # news:
 #  enable : true
 #  item:

@@ -4,7 +4,7 @@ subtitle: "People who have contributed their labor or resources to help us build
 description: "Here are the people who have helped us over the years"
 image: /photos/coop.jpg
 # image: "https://sorasystem.sirv.com/photos/shake.jpg"
-date: 2016-01-01
+date: 2015-01-01
 linkb: "news"
 linkbtext: "News"
 linkf: "https://pantryhub.work"

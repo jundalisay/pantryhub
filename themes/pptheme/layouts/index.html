@@ -44,12 +44,10 @@
           </figure>
         </div>
 
-
-
-
-        <div class="buttons has-addons is-centered">    
+<!--         <div class="buttons has-addons is-centered">     -->
+        <div class="buttons has-addons is-centered">              
           {{ range .mainbuttons }}        
-            <a href="{{ .link | safeURL }}" title="{{ .label }}" class="button is-rounded is-{{ .color }} m-2">{{ .label }}</a>
+            <a href="{{ .link | safeURL }}" title="{{ .label }}" class="button is-{{ .color }} m-2">{{ .label }}</a>
           {{ end }}
         </div>
       </div>
@@ -72,7 +70,7 @@
             <figure class="image is-128x128 is-inline-block">
               <img class="mb-3" src="{{ .flag }}" width="100px" alt="{{ .name }}">
               <br>
-              <a href="{{ .link }}" class="button is-rounded is-small {{ .btn }}">{{ .name }}</a>
+              <a href="{{ .link }}" class="button is-small {{ .btn }}">{{ .name }}</a>
             </figure>
           </div>
         </div>
