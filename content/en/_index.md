@@ -141,7 +141,7 @@ skill:
     # content : "ISAIAH Predict gives insights on potential future events based on historical data"
 
     - name : Circle
-      image : /icons/pantry.png
+      image : /icons/pc.png
       content : "A points-based waste to wealth system that implements the circular economy"
       link: circle
 
@@ -166,7 +166,7 @@ skill:
       content : "A points-based taxation system that prevents tax evasion and increases tax revenue by spreading it to more people. Target: Tentative"
       
     - name : Shop Front
-      image : /icons/ps.png
+      image : /icons/pf.png
       link: "/shop"      
       content : "The pantrynomics version of Shopify. Target: Tentative"
 

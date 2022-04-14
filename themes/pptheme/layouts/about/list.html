@@ -3,17 +3,23 @@
 {{ partial "page-header.html" . }}
 
 <section class="section container content">
-  <div class="columns is-mobile">
+  <div class="columns is-mobile is-multiline">
     <div class="column is-12-mobile is-9-desktop">
       <div class="card p-5">
         {{ .Content }}
       </div>
     </div>
     <div class="column is-12-mobile is-3-desktop">
-      <img src="{{ .Params.img1 | absURL }}" class="img-fluid rounded py-2">
-      <img src="{{ .Params.img2 | absURL }}" class="img-fluid rounded py-2">
-     <!--  <img src="{{ .Params.img3 | absURL }}" class="img-fluid py-2"> -->
-      <img src="{{ .Params.img4 | absURL }}" class="img-fluid rounded py-2">            
+      <div class="card p-4">
+        <p class="pb-4">        
+          {{ .Params.vision | markdownify }}
+        </p>
+        {{ .Params.mission | markdownify  }}  
+      </div>
+      {{ range .Params.images }}
+        <img src="{{ .image | absURL }}" class="img-fluid rounded py-2">
+      {{ end }}
+
     </div>    
   </div>
 </section>

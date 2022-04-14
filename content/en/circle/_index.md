@@ -1,12 +1,12 @@
 ---
-title: "Circle: The Circular Economy Implemented"
-subtitle: "A waste to wealth platform that implements the circular economy"
-image: "/logos/pantrycircle.png"
-description: "Pantry is a waste to wealth system that implements the circular economy"
+title: "The Circular Economy. In Points."
+subtitle: "Pantry Circle is a waste-to-wealth platform that implements the circular economy"
+image: "/logos/circle.png"
+description: "Pantry Circle is a waste to wealth system that implements the circular economy"
 youtube: "Yh5uY0gJWus"
 # youtube: "m8HZsTLgH_o"
 applink: https://hub.pantrypoints.com/registration/new
-apptext: "View the demo"
+apptext: "Register in the Waitlist"
 
 
 feature:

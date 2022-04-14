@@ -3,11 +3,14 @@ title: "About"
 subtitle: ""
 
 description: "About the Pantry Points System"
-img1: "/covers/bookpantrynomics.jpg"
-img2: "https://sorasystem.sirv.com/books/spmat.jpg"
-img3: "https://sorasystem.sirv.com/books/tms.jpg"
-img4: "https://sorasystem.sirv.com/books/economist.jpg"
+images:
+  - image: "/covers/pantrynomics.jpg"
+  - image: "/covers/spmat.jpg"
+  - image: "/covers/spmed.jpg"
+  - image: "/covers/spsoc.jpg"
 
+vision:  "<b>Vision:</b> To establish a non-arbitrary economic system that is free from exploitation, involuntary, yet promotes maximum productivity sustainably"
+mission: "<b>Mission:</b> To use the crisis years that we predicted back in 2015 to deploy our system and solve real-world socio-economic problems according to the princples of Pantrynomics"
 
 call_to_action:
   title : "Let's build the new system!"

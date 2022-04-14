@@ -1,7 +1,7 @@
 ---
-title: "Point-based moneyless banking system"
-subtitle:
-image: "/logos/pointsbanking.png"
+title: Bank the Unbanked
+subtitle: Points-banking is a low-cost moneyless banking system that circulates the economy unserved by the financial system 
+image: "/logos/banking.png"
 description: "Points Banking is the moneyless system of the Pantry Points network"
 youtube: "OV1JHTiDdkQ"
 # "BXuA4483muo"
