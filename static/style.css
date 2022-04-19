@@ -474,10 +474,12 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button,
+/*,
 [type='button'],
 [type='reset'],
-[type='submit'] {
+[type='submit'] */
+
+button {
   -webkit-appearance: button;
 }
 
@@ -2049,7 +2051,8 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 }
 
 .button.is-info {
-  background-color: #3e8ed0;
+/*  background-color: #3e8ed0;*/
+  background: linear-gradient( 27deg, rgb(62 142 208) 0%, rgb(72 95 200) 100%) !important;    
   border-color: transparent;
   color: #fff;
 }
@@ -2172,7 +2175,8 @@ fieldset[disabled] .button.is-info.is-inverted.is-outlined {
 }
 
 .button.is-success {
-  background-color: #48c78e;
+/*  background-color: #48c78e;*/
+  background: linear-gradient( 27deg, rgb(0 209 188) 0%, rgb(0 166 141) 100%);  
   border-color: transparent;
   color: #fff;
 }

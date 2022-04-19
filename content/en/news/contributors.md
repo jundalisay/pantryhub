@@ -14,147 +14,39 @@ linkftext: "Pantry Work"
 > *Updated Jan 2021
 
 
-<div class="table-responsive">
-  <table class="table table-hover">
-    <thead>
-        <tr class="table-primary">
-            <th>Name</th>
-            <th class="text-center">Country</th>                                       
-        </tr>
-    </thead>
-    <tbody>
-      <tr>
-          <td>Accelerate Asia</td>
-          <td><img src="https://sorasystem.sirv.com/flags/sg.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Adrian Evangelista</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Ari Lee</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Adrian Evangelista</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Blockdevs Asia (via DISH)</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>       
-      <tr>
-          <td>British Council Manila</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.bssc.vn/">BSSC</a></td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Buu Bui</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>                                          
-      <tr>
-          <td>Ezgamio</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>                                           
-      <tr>
-          <td><a href="http://hatch.vn/">Hatch</a></td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>Hung Pham</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>Infinity Blockchain Labs</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>ITP</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>      
-      <tr>
-          <td>Joel Solante</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>Jose Felizco</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>          
-      <tr>
-          <td>Juan Miguel Lalo</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>       
-      <tr>
-          <td>Kha Tu Le</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>Khue Nguyen</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>              
-      <tr>
-          <td>Lam Nguyen</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>              
-      <tr>
-          <td>Linh Bui</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Loan Nguyen</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>      
-      <tr>
-          <td>MAGIC</td>
-          <td><img src="https://sorasystem.sirv.com/flags/my.svg" width="50px"></td>
-      </tr>      
-      <tr>
-          <td>Mai Huong Le</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>      
-      <tr>
-          <td>Michael Lance Domagas (NASA Space Apps)</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Minh Nguyen</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Ngoc Anh Bui</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>                                                
-      <tr>
-          <td>Pat Esteban</td>
-          <td><img src="https://sorasystem.sirv.com/flags/my.svg" width="50px"></td>
-      </tr>
-      <tr>
-          <td>Tanmay Chaturdevi</td>
-          <td><img src="https://sorasystem.sirv.com/flags/sg.svg" width="50px"></td>
-      </tr>            
-      <tr>
-          <td>Thuy Nguyen</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>                  
-      <tr>
-          <td>Trang Ngo</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>        
-      <tr>
-          <td>Vietnam Silicon Valley</td>
-          <td><img src="https://sorasystem.sirv.com/flags/vn.svg" width="50px"></td>
-      </tr>  
-      <tr>
-          <td>Vladimir Medina</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>                  
-      <tr>
-          <td>World Vision Philippines</td>
-          <td><img src="https://sorasystem.sirv.com/flags/ph.svg" width="50px"></td>
-      </tr>                                                  
-    </tbody>
-  </table>
-</div>
+Name | Country
+--- | ---
+Accelerate Asia | ![Singapore](/flags/sg.png)
+Adrian Evangelista | ![Philippines](/flags/ph.png)
+Ari Lee | ![Philippines](/flags/ph.png)
+Aster Bedico | ![Philippines](/flags/ph.png)
+Blockdevs Asia (via DISH) | ![Philippines](/flags/ph.png)
+[British Council Manila](https://www.britishcouncil.ph) | ![Philippines](/flags/ph.png)
+[BSSC](https://www.bssc.vn/) | ![Vietnam](/flags/vn.png)
+Buu Bui | ![Vietnam](/flags/vn.png)
+Dada Shiveshananda | ![Philippines](/flags/ph.png)
+Ezgamio | ![Vietnam](/flags/vn.png)
+[Hatch Vietnam](http://hatch.vn/) | ![Vietnam](/flags/vn.png)
+Hung Pham | ![Vietnam](/flags/vn.png)
+[Infinity Blockchain Labs](https://blockchainlabs.asia) | ![Vietnam](/flags/vn.png)
+[IT Park Vietnam](https://itp.vn) | ![Vietnam](/flags/vn.png)
+Joel Solante | ![Philippines](/flags/ph.png)
+Jose Felizco | ![Philippines](/flags/ph.png)
+Juan Miguel Lalo | ![Philippines](/flags/ph.png)
+Kha Tu Le | ![Vietnam](/flags/vn.png)
+Khue Nguyen | ![Vietnam](/flags/vn.png)
+Lam Nguyen | ![Vietnam](/flags/vn.png)
+Linh Bui | ![Vietnam](/flags/vn.png)
+Loan Nguyen | ![Vietnam](/flags/vn.png)
+[MAGIC](https://www.mymagic.my) | ![Malaysia](/flags/my.png)
+Mai Huong Le | ![Vietnam](/flags/vn.png)
+Michael Lance Domagas (NASA Space Apps) | ![Philippines](/flags/ph.png)
+Minh Nguyen | ![Vietnam](/flags/vn.png)
+Ngoc Anh Bui | ![Vietnam](/flags/vn.png)
+Pat Esteban | ![Philippines](/flags/ph.png)
+Tanmay Chaturdevi | ![India](/flags/in.png)
+Thuy Nguyen | ![Vietnam](/flags/vn.png)
+Trang Ngo | ![Vietnam](/flags/vn.png)
+[Vietnam Silicon Valley](https://www.siliconvalley.com.vn) | ![Vietnam](/flags/vn.png)
+Vladimir Medina | ![Philippines](/flags/ph.png)
+[World Vision Philippines](https://www.worldvision.org.ph) | ![Philippines](/flags/ph.png)

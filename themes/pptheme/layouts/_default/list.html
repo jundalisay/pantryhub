@@ -7,7 +7,7 @@
 {{ if or (eq .Section "articles") (eq .Section "news") }}
 
   <section class="section">
-    <div class="has-text-centered pb-4">
+    <div class="has-text-centered mb-5">
       <h1 class="title is-1">{{ .Params.title }}</h1>
       <p class="subtitle is-3">{{ .Params.subtitle }}</p>  
     </div>
@@ -24,32 +24,34 @@
           <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="btn btn-primary">{{ i18n "readmore" }}</a>
         </div>
       {{ end }}
+    </div>
 
-      {{ $paginator := .Paginate .Data.Pages }}
-      
+
+    {{ $paginator := .Paginate .Data.Pages }}
+
+    <div class="columns is-mobile is-multiline">
+
       {{ range $paginator.Pages }}
-        <div class="column is-6">
-          <div class="card card-equal-height">
-            <div class="card-image">
+        <div class="column is-4-desktop is-12-mobile">
+          <a href="{{ .Permalink }}" title="{{ .Title }}" class="card card-equal-height">
+            <div class="card-image zoom-xs" >
               <figure class="image is-16by9">
                 <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" style="display: flex !important;">                
               </figure>
             </div>
             <div class="card-content">
               <div class="content">         
-                <h3 class="title is-4 mt-4">
-                  <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                </h3>
+                <h3 class="title is-4 mt-4">{{ .Title }}</h3>
                 {{ with .Params.date }}
                   <small>{{ .Format "January 2, 2006" }}</small>
                 {{ end }}
                 <p class="card-content">{{ .Summary }}</p>
-                <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="button is-primary" style="position: absolute; bottom: 15px !important; margin: none !important;">{{ i18n "readmore" }}</a>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       {{ end }}
+
     </div>
 
     {{ template "_internal/pagination.html" . }}

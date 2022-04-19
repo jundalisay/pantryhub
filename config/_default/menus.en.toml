@@ -96,27 +96,27 @@ weight = 36
 
 
 # [[main]]
-# identifier = "articles"
+
 # name = "articles"
 # weight = 3
 
 [[main]]
-# parent = "articles"
+identifier = "news"
 name = "News"
 url = "news"
 weight = 50
 
-# [[main]]
-# parent = "articles"
-# name = "Tech Articles"
-# url = "articles/tech"
-# weight = 21
+[[main]]
+parent = "news"
+name = "News"
+url = "news"
+weight = 51
 
-# [[main]]
-# parent = "articles"
-# name = "Startup Articles"
-# url = "articles/startup"
-# weight = 22
+[[main]]
+parent = "news"
+name = "Articles"
+url = "articles"
+weight = 52
 
 
 

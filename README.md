@@ -6,7 +6,7 @@ HUGO_VERSION 0.88.1
 
 7 dimensions, 5 layers, 4 thermodynamics, 3 states, 2 forces, 1 observer (yourself)
 
-
+                <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="button is-primary" style="position: absolute; bottom: 15px !important; margin: none !important;">{{ i18n "readmore" }}</a>
 
 <!-- checking blog -->
 <!-- {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}} -->
