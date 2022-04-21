@@ -22,14 +22,14 @@ banner:
 
 servers:
   title : "Locations"
-  subtitle: "We'll deploy an app for your city once the waitlist for that city gets filled. The green ones below are active, the red ones are filling up and might turn green soon"
+  subtitle: "We'll deploy an app for your city once the waitlist for that city gets filled. The green ones below are active, the red ones are filling up"
   sitem: 
     - name: "Biñan, Laguna"
       link: "https://binan.pantrypoints.com"
       flag: "/flags/ph.png"
       btn: "is-primary"
     - name: "Taman Desa, KL"
-      link: "https://td.pantrypoints.com"
+      # link: "https://td.pantrypoints.com"
       flag: "/flags/my.png"
       btn: "is-primary"
     - name: "Tokyo"

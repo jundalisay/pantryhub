@@ -86,10 +86,15 @@ feedback:
     #   content: "A very awesome platform. I cannot wait for the app to be released" 
     #   link: "https://iflux.app"
 
-    - user : "finzen.app"
-      image: "/icons/finzen.png"
-      content: "In general, I don't put much trust on alternative medicine, but I think that it does have a place in our modern health system and it can be a great complement. " 
-      link: "https://finzen.app"      
+    # - user : "finzen.app"
+    #   image: "/icons/finzen.png"
+    #   content: "In general, I don't put much trust on alternative medicine, but I think that it does have a place in our modern health system and it can be a great complement. " 
+    #   link: "https://finzen.app"      
+
+    - user : "matayog.com"
+      image: "/icons/matayog.png"
+      content: "It's exactly what we are promoting in our wellness center -- a holistic health system!" 
+      link: "https://matayog.com"
 
     - user : "seobuddy.com"
       image: "/icons/seobuddy.jpg"
