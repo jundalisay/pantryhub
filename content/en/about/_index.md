@@ -15,7 +15,7 @@ mission: "<b>Mission:</b> To use the crisis years that we predicted back in 2015
 call_to_action:
   title : "Let's build the new system!"
   link1text: "I'm in!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/articles/pantrynomics"
 

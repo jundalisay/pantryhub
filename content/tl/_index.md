@@ -8,7 +8,7 @@ banner:
   mainbuttons:
     - label : "Mag-Register sa Waitlist"
       color: "primary"
-      link : "https://hub.pantrypoints.com/registration/new"
+      link : "https://hub.pantrypoints.com/signup"
     - label : "Tingnan ang Science"
       color: "info"
       link : "https://superphysics.one/pantrynomics"  
@@ -121,7 +121,7 @@ feedback:
 call_to_action:
   title : "Sama na sa bagong ekonomiya na walang krisis!"
   link1text: "Sali ako!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "Kelangan ko pa ng info"
   link2 : "https://superphysics.one/articles/pantrynomics/"
   

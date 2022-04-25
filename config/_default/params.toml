@@ -17,7 +17,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button1]
 label = "Register"
-link = "https://hub.pantrypoints.com/registration/new"
+link = "https://hub.pantrypoints.com/signup"
 
 [navigation_button2]
 label = "Join the Change!"

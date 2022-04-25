@@ -7,7 +7,7 @@ description: "Pantry Apprentice and Learn are social education systems derived f
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
 youtube: "_6oLDaX3T00"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -105,7 +105,7 @@ feedback:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/solutions/supersociology/modular-learning/"
   

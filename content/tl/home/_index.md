@@ -92,7 +92,7 @@ feedback:
 call_to_action:
   title : "Mag-register sa Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "Teka lang"
   link2 : "https://superphysics.one/articles/pantrynomics/"
 

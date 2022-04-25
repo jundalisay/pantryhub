@@ -5,7 +5,7 @@ image: "/logos/match.png"
 description: "ISAIAH Match is our personality matching system for education, jobs, products, fake news, and relationships, as a part of a new morality-based socio-economic system"
 youtube: "YjpyR0yVNLY"
 # youtube: "oBFBDtAmUvk"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -113,7 +113,7 @@ feedback:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/social/social-networkism/"
 

@@ -83,7 +83,7 @@ feedback:
 call_to_action:
   title : "Sama na sa bagong ekonomiya!"
   link1text: "Sali ako!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "Teka lang"
   link2 : "https://superphysics.one/articles/pantrynomics/"
 

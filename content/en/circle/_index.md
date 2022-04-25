@@ -5,7 +5,7 @@ image: "/logos/circle.png"
 description: "Pantry Circle is a waste to wealth system that implements the circular economy"
 youtube: "Yh5uY0gJWus"
 # youtube: "m8HZsTLgH_o"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -115,7 +115,7 @@ feedback:
 call_to_action:
   title : "Do you want to use Pantry?"
   link1text: "Yes, I'm in!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/solutions/material/how-to-solve-global-warming/"
 

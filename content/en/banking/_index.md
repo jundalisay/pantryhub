@@ -7,7 +7,7 @@ youtube: "OV1JHTiDdkQ"
 # "BXuA4483muo"
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -83,7 +83,7 @@ feedback:
 call_to_action:
   title : "Register in the Waitlist!"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/solutions/pantrynomics/points-banking"
 

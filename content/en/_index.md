@@ -15,7 +15,7 @@ banner:
   mainbuttons:
     - label : "Register in the Waitlist"
       color: "success"
-      link : "https://hub.pantrypoints.com/registration/new"
+      link : "https://hub.pantrypoints.com/signup"
     - label : "Check out the science"
       color: "info"
       link : "https://superphysics.one/pantrynomics"
@@ -189,7 +189,7 @@ feedback:
 call_to_action:
   title : "Let's create the new system!"
   link1text: "I'm in!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/pantrynomics/"
   

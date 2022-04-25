@@ -10,7 +10,7 @@ banner:
   mainbuttons:
     - label : "Đăng xuất"
       color: "primary"
-      link : "https://hub.pantrypoints.com/registration/new"
+      link : "https://hub.pantrypoints.com/signup"
     - label : "Check out the science"
       color: "info"
       link : "https://superphysics.one/pantrynomics"

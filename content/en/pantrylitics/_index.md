@@ -5,7 +5,7 @@ image: "/logos/pantrylitics.png"
 description: "Pantrylitics provides real-time analytics for the Pantry system"
 # youtube: "chW_2ZDxAJc"
 youtube: "Vg4OUghYjVw"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -70,7 +70,7 @@ req:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/pantrynomics/isaiah"
   

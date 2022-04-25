@@ -4,7 +4,7 @@ subtitle: "Implements Economy-as-a-Service or EaaS or a ready economic system ou
 image: "/logos/pantry.png"
 description: Hub is the central part of Pantry Points Network, a new economic system based on points
 youtube: "oJXjxLYQQ08"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -111,7 +111,7 @@ call_to_action:
   enable : true
   title : "Do you want to try Hub?"
   link1text: "Yes, I'm in!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/articles/pantrynomics/"
 ---

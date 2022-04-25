@@ -7,7 +7,7 @@ description: "Pantry Health is a health app that allows the five health paradigm
 # youtube: "3FHG_VoDlhs"
 youtube: "ldAX9XGTvX0"
 # youtube: "oBFBDtAmUvk"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -121,7 +121,7 @@ req:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/research/indian/yogic-treatments/"
 ---

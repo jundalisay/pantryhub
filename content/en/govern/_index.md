@@ -5,7 +5,7 @@ image: "/logos/govern.png"
 description: "Pantry Govern is the system that allocates resources within local governments and facilitates basic governance functions"
 youtube: "J6F2_PF2wbo"
 # youtube: "oJXjxLYQQ08"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "Register in the Waitlist"
 
 
@@ -92,7 +92,7 @@ feedback:
 call_to_action:
   title : "Let's build Govern!"
   link1text: "I'm in!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/supersociology/fourth-branch-of-government"
 

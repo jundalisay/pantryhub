@@ -7,7 +7,7 @@ description: "Pantry Invest implements the Points Banking system to spur industr
 # youtube: "DjGsLaUvYcc"
 # youtube: "KLnDh_zs94I"
 youtube: "mGu4Z0HpiRI"
-applink: https://hub.pantrypoints.com/registration/new
+applink: https://hub.pantrypoints.com/signup
 apptext: "View the demo"
 
 
@@ -61,7 +61,7 @@ req:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I need to know more"
   link2 : "https://superphysics.one/articles/pantrynomics/why-business-is-immoral"
   

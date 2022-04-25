@@ -91,7 +91,7 @@ req:
 call_to_action:
   title : "Register in the Waitlist"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/registration/new"
+  link1 : "https://hub.pantrypoints.com/signup"
   link2text: "I'm not convinced yet"
   link2 : "https://superphysics.one/solutions/pantrynomics/pointtax"
 
