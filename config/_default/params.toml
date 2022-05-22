@@ -7,7 +7,10 @@ description = "Pantry Points is an alternative economic system based on Adam Smi
 author = "Pantry Work"
 image = "/logos/pantry.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
-contact_form_action = "https://formspree.io/f/myylprpw" # contact form works with https://formspree.io
+# contact_form_action = "https://formspree.io/f/myylprpw" # contact form works with https://formspree.io
+contact_form_action = "https://hub.pantrypoints.com/api/email"
+
+
 
 # Preloader
 [preloader]

@@ -10,31 +10,32 @@
         <div class="field">
           <label>Your Name</label>
           <div class="control">
-            <input type="text" id="name" name="name" placeholder="{{ i18n `yourname` }}" class="input">
+            <input type="text" id="name" name="email[name]" placeholder="{{ i18n `yourname` }}" class="input">
           </div>
         </div>
 
         <div class="field">
           <label>Your Email</label>
           <div class="control">
-            <input type="text" id="email" name="email" placeholder="{{ i18n `youremail` }}" class="input">
+            <input type="text" id="email" name="email[email]" placeholder="{{ i18n `youremail` }}" class="input">
           </div>
         </div>
 
         <div class="field">
           <label>Your City</label>
           <div class="control">
-            <input type="text" id="city" name="city" placeholder="{{ i18n `yourcity` }}" class="input">
+            <input type="text" id="city" name="email[city]" placeholder="{{ i18n `yourcity` }}" class="input">
           </div>
         </div>
 
         <div class="field">
           <label>Your Message</label>
           <div class="control">
-            <textarea class="textarea" type="text" id="message" name="message" placeholder="{{ i18n `yourmessage` }}"></textarea>
+            <textarea class="textarea" type="text" id="content" name="email[content]" placeholder="{{ i18n `yourmessage` }}"></textarea>
+            <input name="email[address]" id="source" type="hidden" value="{{ .Permalink }}">
           </div>
         </div>
-                            
+
 <!--           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="{{ i18n `subject` }}"> -->
 <!--        <form action="https://isaiah4.gigalixirapp.com/api/subscribers" method="POST">
         <input type="text" class="form-control mb-3" id="name" name="subscriber[name]" placeholder="{{ i18n `yourname` }}">
