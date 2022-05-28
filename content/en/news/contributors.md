@@ -3,12 +3,12 @@ title: "Contributors"
 subtitle: "People who have contributed their labor or resources to help us build the new systems"
 description: "Here are the people who have helped us over the years"
 image: /photos/coop.jpg
-# image: "https://sorasystem.sirv.com/photos/shake.jpg"
 date: 2015-01-01
 linkb: "news"
 linkbtext: "News"
 linkf: "https://pantryhub.work"
 linkftext: "Pantry Work"
+draft: true
 ---
 
 > *Updated Jan 2021

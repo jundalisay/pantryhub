@@ -41,7 +41,7 @@ servers:
       flag: "/flags/vn.png"
       btn: "is-danger"
     - name: "Add your country!"
-      link: "https://world.pantrypoints.com"
+      link: "https://hub.pantrypoints.com/signup"
       flag: "/icons/plus.png"
       btn: "is-primary"
 
