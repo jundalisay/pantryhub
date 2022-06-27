@@ -15,12 +15,15 @@
           <div class="contentWrapper">
             {{ range .steps }}        
               <div class="content has-text-centered active" id="{{ .id }}">
-                <figure class="image is-inline-block">                
-                  <img src="{{ .image | absURL }}" class="card-image">
-                </figure>
+                {{ .content | markdownify }}
                 <div class="card-footer mt-4">
-                  <p class="card-footer-item">{{ .content | markdownify }}</p>
+                  <div class="card-footer-item">
+                    <figure class="image is-inline-block">                
+                      <img src="{{ .image | absURL }}" class="card-image">
+                    </figure>                
+                  </div>
                 </div>
+
               </div>
             {{ end }}      
           </div>

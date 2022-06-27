@@ -1,6 +1,7 @@
 <section class="section my-5">
   <div class="container has-text-centered my-5">
     <h2 class="title is-3">{{ .title | markdownify }}</h2>
+    <h3 class="title is-4">{{ .subtitle | markdownify }}</h3>    
   </div>
   <div class="columns is-multiline is-flex-wrap-wrap is-justify-content-center">    
     {{ range .item }}

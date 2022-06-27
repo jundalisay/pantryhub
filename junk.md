@@ -1,4 +1,4 @@
-## PUBLIC README
+## PUBLIC
 
 CLoudflare pages
 no *.domain.com

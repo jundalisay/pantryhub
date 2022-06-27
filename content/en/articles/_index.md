@@ -1,6 +1,6 @@
 ---
 title: Articles
-subtitle: "on Pantrynomics"
+subtitle: "on Tech and Pantrynomics"
 image: "/photos/holdhands.jpg"
 description: "Articles About Pantrynomics"
 ---
