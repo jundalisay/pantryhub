@@ -100,23 +100,43 @@ weight = 36
 # name = "articles"
 # weight = 3
 
+
+[[main]]
+identifier = "services"
+name = "Services"
+weight = 50
+
+[[main]]
+parent = "services"
+name = "Build"
+url = "build"
+weight = 51
+
+[[main]]
+parent = "services"
+name = "Predict"
+url = "predict"
+weight = 52
+
+
+
 [[main]]
 identifier = "news"
 name = "News"
 url = "news"
-weight = 50
+weight = 90
 
 [[main]]
 parent = "news"
 name = "News"
 url = "news"
-weight = 51
+weight = 91
 
 [[main]]
 parent = "news"
 name = "Articles"
 url = "articles"
-weight = 52
+weight = 92
 
 
 

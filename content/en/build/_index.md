@@ -1,7 +1,8 @@
 ---
 title: We build the online presence for your business
 # subtitle: Pantry Peers is a small dedicated team that builds the Pantry system for Pantrynomics
-subtitle: Pantry Peers is a small dedicated team creating an online economy based on the princples of Pantrynomics
+subtitle: Pantry Peers is a small dedicated team creating an online economy for micro and small businesses 
+# based on the princples of Pantrynomics
 # that builds the Pantry system for Pantrynomics
 image: "/logos/build.png"
 description: "Pantry Peers is a small dedicated team that enables offline micro and small businesses to enter the digital age"
@@ -9,7 +10,8 @@ description: "Pantry Peers is a small dedicated team that enables offline micro 
 # "BXuA4483muo"
 # youtube: "3FHG_VoDlhs"
 # youtube: "DjGsLaUvYcc"
-applink: https://elivirs.com
+youtube: "xT37nH1w-xU"
+applink: "https://elivirs.com"
 apptext: "Check out a real project"
 
 platform:
@@ -60,7 +62,7 @@ platform:
       image : "/icons/harrys.png"
       content : "We build basic graphics using Canva and other online tools"
 
-    - name : "Website, Domain, and basic SEO content"
+    - name : "Website, Domain, basic content"
       image : "/screens/harryweb.jpg"
       content : "We build your site based on our templates"
       
@@ -84,65 +86,66 @@ how:
       content: "Tell us your business idea and your target market, content, etc"  
     - image: "/screens/harryweb.jpg"
       id: 2
-      content: "We build the online presence of your business. If it gains traction within a year, then we hand it over to your control. If it fails, then we either pivot or abandon it"
+      content: "We build the online presence of your business. If it gains traction within a year, then we hand it over to your control. If it fails, then we either pivot or abandon it just like a startup. In this way, your startup costs will be much lower"
     - image: "/graphics/harryapp.png"
       id: 3
       content: "You can then tap us to add a web app, mobile app, or cashless payment in the future, or even try our moneyless system (this last possibility is our <a href='/articles/economy-as-a-service/'>ultimate goal</a>)"
 
 
-req:
-  title: Based on the requirements in Book 2, Chapter 2 of the Wealth of Nations
-  link: "https://superphysics.one/research/smith/wealth-of-nations/book-2/chapter-3c"
-  btext: "Read the requirements"
-  avatar: "/avatars/smith.png"
+# req:
+#   title: Based on the requirements in Book 2, Chapter 2 of the Wealth of Nations
+#   link: "https://superphysics.one/research/smith/wealth-of-nations/book-2/chapter-3c"
+#   btext: "Read the requirements"
+#   avatar: "/avatars/smith.png"
 
 
 
-feedback:
-  title: Awards
-  item:
-    - user : NASA Space Apps Challenge 2018
-      image: /icons/nasa.jpg
-      content: Most Inspiring Award as Disaster Relief App
-      # link: http://communities.techstars.com
+# feedback:
+#   title: Awards
+#   item:
+#     - user : NASA Space Apps Challenge 2018
+#       image: /icons/nasa.jpg
+#       content: Most Inspiring Award as Disaster Relief App
+#       # link: http://communities.techstars.com
 
-    - user : DISH Hackathon 2018
-      image: /logos/dish.jpg
-      content: Special Prize for SORA Galleon
-      # link: http://blockchainlabs.asia
+#     - user : DISH Hackathon 2018
+#       image: /logos/dish.jpg
+#       content: Special Prize for SORA Galleon
+#       # link: http://blockchainlabs.asia
 
-    - user : Startup Weekend Cambodia 2017
-      image: https://sorasystem.sirv.com/logos/startupweekend.png
-      content: Top 5 in the Fintech Edition as Debt Clearing System
-      link: http://communities.techstars.com
+#     - user : Startup Weekend Cambodia 2017
+#       image: https://sorasystem.sirv.com/logos/startupweekend.png
+#       content: Top 5 in the Fintech Edition as Debt Clearing System
+#       link: http://communities.techstars.com
 
-    - user : Infinity Blockchain Labs Nationwide Vietnam Blockathon 2017
-      image: https://sorasystem.sirv.com/logos/blockathon.jpg
-      content: 2nd Place as Social ROSCA
-      link: http://blockchainlabs.asia
+#     - user : Infinity Blockchain Labs Nationwide Vietnam Blockathon 2017
+#       image: https://sorasystem.sirv.com/logos/blockathon.jpg
+#       content: 2nd Place as Social ROSCA
+#       link: http://blockchainlabs.asia
 
-    - user : AWS Hackdays 2020
-      image: /icons/aws.jpg
-      content: Top 5 for SORA Health
-      # link: http://communities.techstars.com
+#     - user : AWS Hackdays 2020
+#       image: /icons/aws.jpg
+#       content: Top 5 for SORA Health
+#       # link: http://communities.techstars.com
 
-    - user : AWS Hackdays 2019
-      image: /icons/aws.jpg
-      content: Top 5 for SORA Relief
+#     - user : AWS Hackdays 2019
+#       image: /icons/aws.jpg
+#       content: Top 5 for SORA Relief
 
-    - user : SLUSH Vietnam 2017
-      image: /covers/slush.jpg
-      content: Semifinalist
-      # link: http://blockchainlabs.asia
+#     - user : SLUSH Vietnam 2017
+#       image: /covers/slush.jpg
+#       content: Semifinalist
+#       # link: http://blockchainlabs.asia
                 
 
 ##################### Call to action #####################
 
 call_to_action:
-  title : "Register in the Waitlist!"
+  title : "Send us a message to get started"
+  subtitle: "If we don't reply it means your message got buried in the spam, so please send it again or multiple times"
   link1text: "Sure!"
-  link1 : "https://hub.pantrypoints.com/signup"
-  link2text: "I need to know more"
-  link2 : "https://superphysics.one/solutions/pantrynomics/points-banking"
+  link1 : "/contact"
+  link2text: "I'm looking for something else"
+  link2 : "https://google.com"
 
 ---
