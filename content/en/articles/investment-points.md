@@ -9,13 +9,13 @@ description : "Investment Points are the conversion of goods and services into t
 # linkf: /articles/pantrynomics/what-defines-capitalism
 # linkftext: "What defines capitalism?"
 author: Juan
-icon: https://superphysics.one/icons/pantry.png
+icon: https://superphysics.org/icons/pantry.png
 icontext: Pantrynomics icon
 ---
 
 Last week, we were invited to join the SIS Online Hackathon, wherein the organizers were looking for a tech solution for B2B cash management. The Covid pandemic has wreaked havoc on cash and many customers are unable to pay their suppliers.
 
-Fortunately, our proposed economic system, called [The Pantry Hub](https://pantrypoints.com/home), derived from Adam Smith, is purpose-built to predict and solve such problems. In fact, we [have been warning of a huge global economic crisis](https://superphysics.one/social/precrisis-years) as early as 2015. 
+Fortunately, our proposed economic system, called [The Pantry Hub](https://pantrypoints.com/home), derived from Adam Smith, is purpose-built to predict and solve such problems. In fact, we [have been warning of a huge global economic crisis](https://superphysics.org/social/supersociology/precrisis-years) as early as 2015. 
 
 The current problem came as predicted because of the false idea that money is wealth. This idea makes people focus on the tool of trade and not in the actual goods and services that money circulates. 
 

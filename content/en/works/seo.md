@@ -9,7 +9,7 @@ We optimize content for Search Engines
 
  Link | Description | Date
 --- | --- | ---
-[superphysics.one](https://superphysics.one) &nbsp; &nbsp; &nbsp; | A Science Website | July 26, 2021
+[superphysics.org](https://superphysics.org) &nbsp; &nbsp; &nbsp; | A Science Website | July 26, 2021
 
 
 

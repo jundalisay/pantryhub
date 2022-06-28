@@ -9,7 +9,7 @@ description : "How to Hotlink Images from Google Drive and Dropbox"
 # linkf: /articles/pantrynomics/what-defines-capitalism
 # linkftext: "What defines capitalism?"
 author: Juan
-icon: https://superphysics.one/icons/pantry.png
+icon: https://superphysics.org/icons/pantry.png
 icontext: Pantrynomics icon
 ---
 

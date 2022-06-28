@@ -13,7 +13,7 @@ We thought that this would be sustainable, especially since we relied on mostly 
 
 The mistake exposed itself when our server actually got website views and web app users. This overloaded our server causing it to either crash or incur charges when it auto-scaled to accomodate the traffic. 
 
-The problem is that we had a lot of content waiting to be written for [Superphysics](https://superphysics.one) and [Pantrynomics](https://pantrypoints.com) which were the theory behind the apps. The website would use resources that were supposed to be for the web app users. In addition, our chosen framework was built for web apps and not for CMS or websites. 
+The problem is that we had a lot of content waiting to be written for [Superphysics](https://superphysics.org) and [Pantrynomics](https://pantrypoints.com) which were the theory behind the apps. The website would use resources that were supposed to be for the web app users. In addition, our chosen framework was built for web apps and not for CMS or websites. 
 
 <br>
 

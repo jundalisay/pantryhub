@@ -2,7 +2,7 @@
 title: "Economic Development From Zero"
 subtitle: "How to Save a Country from a Destroyed State"
 date: 2015-08-21
-image: https://superphysics.one/photos/objects/regicide.jpg
+image: https://superphysics.org/photos/objects/regicide.jpg
 # image: "https://socioecons.files.wordpress.com/2015/08/chocolate-child-slavery-ivory-coast.jpg"
 description: "Adam Smith explained how to help societies rise from poverty to wealth through natural economic development"
 linkb: "/articles/"
@@ -15,7 +15,7 @@ linkftext: Index
 # linkftext: 1772 Credit Crunch
 # btext: How would Smith do Development?
 author: Juan
-icon: https://superphysics.one/icons/pantry.png
+icon: https://superphysics.org/icons/pantry.png
 icontext: Pantrynomics icon
 finaltitle: From Destroyed to Affluent
 final: The development of the rude state will then depend on the nature of the people, with some cultures being able to develop faster. Regardless of culture, Smith guarantees that by allowing profit-sharing or giving the people the proceeds of their own work, industry and development can be sped up. While profit sharing is the main expedient to speed up development,grain-based valuation  andpool clearing  are the main expedients to prevent the society from sliding backwards during economic crises.

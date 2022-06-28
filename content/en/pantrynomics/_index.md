@@ -5,7 +5,7 @@ image: "/logos/pantrynomics.png"
 description: ""
 link: "/"
 linktext: "How is pantrynomics Implemented?"
-draft: false
+draft: true
 # youtube: "oYBERjblEbk"
 # youtube: "Y8gkzT8SF7Q"
 youtube: "3nW5DLwsJLo"
@@ -37,7 +37,7 @@ service:
       button:
         enable : true
         label : "Huh? What's wrong with money?"
-        link : "https://superphysics.one/pantrynomics/alternatives-to-money"
+        link : "https://superphysics.org/pantrynomics/alternatives-to-money"
    
     - title : "Time to bring in the Invisible Hand of the Tao"
       images:
@@ -63,7 +63,7 @@ service:
       button:
         enable : true
         label : "How is pantrynomics different from Economics?"
-        link : "https://superphysics.one/articles/pantrynomics/neoclassical-economics-versus-classical-economics"
+        link : "https://superphysics.org/social/economicsneoclassical-economics-versus-classical-economics"
 
     - title : "The Goal: Economic Singularity"
       images:
@@ -74,7 +74,7 @@ service:
       button:
         enable : true
         label : "What's ISAIAH?"
-        link : "https://superphysics.one/pantrynomics/isaiah"
+        link : "https://superphysics.org/pantrynomics/isaiah"
 
     - title : "Basic Universal Revenue: No More Poverty, Inequality"
       images:
@@ -84,7 +84,7 @@ service:
       button:
         enable : true
         label : "What's Basic Universal Revenue?"
-        link : "https://superphysics.one/pantrynomics/basic-universal-revenue"
+        link : "https://superphysics.org/pantrynomics/basic-universal-revenue"
     - title : "Clearing Funds: A new investment system"
       images:
       - "https://sorasystem.sirv.com/graphics/ecogrow.png"
@@ -93,7 +93,7 @@ service:
       button:
         enable : true
         label : "What's Pool Clearing?"
-        link : "https://superphysics.one/solutions/pantrynomics/multilateral-pool-clearing"
+        link : "https://superphysics.org/solutions/pantrynomics/multilateral-pool-clearing"
 
 
 burn:

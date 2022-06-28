@@ -15,9 +15,10 @@ call_to_action:
   link1text: "Vang!"
   link1 : "contact"
   link2text: "Chua.."
-  link2 : "https://superphysics.one/articles/pantrynomics"
+  link2 : "https://superphysics.org/social/economics"
 ---
-Tao Network là mạng xã hội cho phép mọi người mua bán bằng tiền mặt và hiện vật. Để khai thác tối đa ứng dụng của chúng tôi, vui lòng hoàn tất tiểu sử của bạn và cho biết chi tiết về những điều bạn có thể làm và những điều bạn muốn người khác làm cho bạn.
+
+Pantry Network là mạng xã hội cho phép mọi người mua bán bằng tiền mặt và hiện vật. Để khai thác tối đa ứng dụng của chúng tôi, vui lòng hoàn tất tiểu sử của bạn và cho biết chi tiết về những điều bạn có thể làm và những điều bạn muốn người khác làm cho bạn.
 
 Để khai thác tối đa ứng dụng của chúng tôi, vui lòng hoàn tất hồ sơ của bạn và cho biết chi tiết về những điều bạn có thể làm và những điều mà bạn muốn người khác làm cho bạn.
 
