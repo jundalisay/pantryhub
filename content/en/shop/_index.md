@@ -4,6 +4,7 @@ subtitle: ""
 image: "/logos/front.png"
 description: "Pantry Shop is your own online storefront -- the Pantry version of Shopify"
 youtube: "RP1bzp_LQhM"
+draft: true
 # CR6T1M9dKwQ
 # youtube: "oBFBDtAmUvk"
 # youtube: "3FHG_VoDlhs"
