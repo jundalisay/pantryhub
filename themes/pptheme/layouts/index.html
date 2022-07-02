@@ -63,7 +63,7 @@
       <h2 class="title is-3">{{ .title | markdownify }}</h2>
       <p class="subtitle is-5">{{ .subtitle | markdownify }}</p>        
     </div>
-    <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center my-5">    
+    <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center my-5"> 
       {{ range .sitem }}
         <div class="column is-3-desktop is-12-mobile">
           <div class="card p-5 has-text-centered">
@@ -163,7 +163,7 @@
     <div class="container has-text-centered">
       <h2 class="title is-2">{{ .title | markdownify }}</h2>
   
-      <div class="columns is-multiline is-mobile">
+      <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center"> 
         {{ range .sitem }}
           <div class="column is-4-desktop is-12-mobile my-5">
             <div class="card has-text-centered card-equal-height p-4">
@@ -182,6 +182,31 @@
   </section>
 {{ end }}
 
+
+
+{{ with .Params.services }}
+  <section class="section my-5">
+    <div class="container has-text-centered">
+      <h2 class="title is-2">{{ .title | markdownify }}</h2>
+  
+      <div class="columns is-multiline is-mobile is-flex-wrap-wrap is-justify-content-center"> 
+        {{ range .svc }}
+          <div class="column is-4-desktop is-12-mobile my-5">
+            <div class="card has-text-centered card-equal-height p-4">
+              <a href="{{ .link }}">
+                <figure class="image is-128x128 is-inline-block">
+                  <img class="is-rounded mb-3" src="{{ .image }}" width="100px" alt="{{ .name }}">
+                </figure>
+              </a>
+              <h3 class="subtitle is-4">{{ .name | title }}</h3>
+              <p>{{ .content | markdownify }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
 
 
 {{ with .Params.feedback }}

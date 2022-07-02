@@ -165,12 +165,29 @@ skill:
       link: "/pointtax"
       content : "A points-based taxation system that prevents tax evasion and increases tax revenue by spreading it to more people. Target: Tentative"
       
-    - name : Shop Front
-      image : /icons/pf.png
-      link: "/shop"      
-      content : "The pantrynomics version of Shopify. Target: Tentative"
+    # - name : Shop Front
+    #   image : /icons/pf.png
+    #   link: "/shop"      
+    #   content : "The pantrynomics version of Shopify. Target: Tentative"
 
 
+services:
+  title : "Services"
+  svc:
+    # - name : "Pantry"
+    #   image : "https://sorasystem.sirv.com/icons/pantry.png"
+    #   content : "A waste to wealth system that uses points and point-banks instead of currency, to de-commercialize an economy and bank the unbanked"      
+    # content : "ISAIAH Predict gives insights on potential future events based on historical data"
+
+    - name : Build
+      image : /icons/build.png
+      content : "We move offline businesses to the online world by making their websites, apps, and social media presence"
+      link: build
+
+    - name : Predict 
+      image : /icons/predict.png
+      content : "We answer questions on future events using our ISAIAH models"
+      link: predict
 
 feedback:
   title: "Feedback"
