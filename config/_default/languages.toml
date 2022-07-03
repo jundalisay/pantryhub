@@ -9,7 +9,7 @@ footer_menu_middle = "Platforms"
 footer_menu_right = "Features"
 footer_content = "Let's end crises once and for all"
 # copyright
-copyright = "By [Pantry Work](https://pantryhub.work/)"
+copyright = "By [Pantry Peers](https://pantrypoints.com/peers)"
 
 
 [tl]
@@ -23,7 +23,8 @@ footer_menu_middle = "Mga Platform"
 footer_menu_right = "Suporta"
 footer_content = "Wag magpatalo sa krisis"
 # copyright
-copyright = "Gawa ng [Pantry Work](https://pantryhub.work/)"
+copyright = "Gawa ng [Pantry Peers](https://pantrypoints.com/peers)"
+
 
 [vi]
 languageName = "Vi"
@@ -35,7 +36,7 @@ footer_menu_left = "Pantry Points"
 footer_menu_middle = "Platforms"
 footer_menu_right = "Support"
 footer_content = "Let's end crises once and for all"
-copyright = " [Pantry Work](https://pantryhub.work/)"
+copyright = "By [Pantry Peers](https://pantrypoints.com/peers)"
 
 
 [ar]
@@ -48,4 +49,4 @@ footer_menu_left = "Pantry Hub"
 footer_menu_middle = "Platforms"
 footer_menu_right = "Support"
 footer_content = "Let's end crises once and for all"
-copyright = " [Pantry Work](https://pantryhub.work/)"
+copyright = "By [Pantry Peers](https://pantrypoints.com/peers)"

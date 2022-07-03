@@ -29,7 +29,7 @@
 
     {{ $paginator := .Paginate .Data.Pages }}
 
-    <div class="columns is-mobile is-multiline">
+    <div class="columns is-mobile is-multiline mt-5">
 
       {{ range $paginator.Pages }}
         <div class="column is-4-desktop is-12-mobile">
@@ -115,6 +115,11 @@
   {{ with .Params.how }}
     {{ partial "how.html" . }}
   {{ end }}
+
+  {{ with .Params.timeline }}
+    {{ partial "timeline.html" . }}
+  {{ end }}
+
 
   {{ with .Params.carousel }}
     {{ partial "carousel.html" . }}

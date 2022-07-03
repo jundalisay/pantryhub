@@ -1,0 +1,49 @@
+<div class="container my-5">  
+  <div class="has-text-centered">  
+    <h2 class="title is-3">{{ .title | markdownify }}</h2>
+    <h3 class="title is-4">{{ .subtitle | markdownify }}</h3>    
+  </div>
+  
+  <div class="timeline is-centered">
+
+    <header class="timeline-header">   
+      <span class="tag is-medium is-primary">Start</span>
+    </header>
+
+    {{ range .item }}
+      <div class="timeline-item {{ .color }}">
+        <div class="timeline-marker {{ .color }}"></div>
+        <div class="timeline-content">
+          <i class="zoom-xs mb-3">{{.icon | markdownify }}</i>
+          <p class="heading">{{ .date }}</p>
+          <p>{{ .content }}</p>
+        </div>
+      </div>
+    {{ end }}
+
+<!--     <div class="timeline-item is-warning">
+      <div class="timeline-marker is-warning is-image is-32x32">
+        <img src="https://bulma.io/images/placeholders/32x32.png">
+      </div>
+      <div class="timeline-content">
+        <p class="heading">February 2016</p>
+        <p>Timeline content - Can include any HTML element</p>
+      </div>
+    </div>
+    <header class="timeline-header">
+      <span class="tag is-primary">2017</span>
+    </header>
+    <div class="timeline-item is-danger">
+      <div class="timeline-marker is-danger is-icon">
+        <i class="fa fa-flag"></i>
+      </div>
+      <div class="timeline-content">
+        <p class="heading">March 2017</p>
+        <p>Timeline content - Can include any HTML element</p>
+      </div>
+    </div>
+    <header class="timeline-header">
+      <span class="tag is-medium is-primary">End</span>
+    </header> -->
+  </div>
+</div>
